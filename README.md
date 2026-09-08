@@ -19,3 +19,4 @@ Every writeup follows one fixed template: metadata, triage/recon, static analysi
 ### Crackmes — C/C++
 - [CrackMe One](Language_Specific_Crackmes/C_C++/writeup_1/CrackMe_One.md) — username/serial validator built on a custom FNV-64-style hash; solved by inverting the final comparison.
 - [Layered Anti-Debug Key Validator](Language_Specific_Crackmes/C_C++/writeup_2/Layered_AntiDebug_Key_Validator.md) — layered encrypted data files and heavy anti-debug; the key is recovered from memory at the comparison.
+- [Reversed-Username Credential Validator](Language_Specific_Crackmes/C_C++/writeup_3/Reversed_Username_Credential_Validator.md) — no stored password; the accepted password is derived from the reversed username and must be exactly twice its length.
