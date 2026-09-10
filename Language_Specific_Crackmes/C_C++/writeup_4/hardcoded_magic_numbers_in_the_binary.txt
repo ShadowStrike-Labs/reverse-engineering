@@ -1,0 +1,68 @@
+.data:00B86018 dword_B86018 dd 72h                     ; DATA XREF: .text:00B81178↑w
+.data:00B86018                                         ; .text:00B8119C↑r ...
+.data:00B8601C dword_B8601C dd 87h                     ; DATA XREF: .text:00B811CD↑r
+.data:00B8601C                                         ; .text:00B8124E↑w ...
+.data:00B86020 dword_B86020 dd 565h                    ; DATA XREF: .text:00B811FD↑r
+.data:00B86020                                         ; .text:00B8131A↑o ...
+.data:00B86024 dword_B86024 dd 39h                     ; DATA XREF: .text:00B81233↑r
+.data:00B86024                                         ; .text:00B813E3↑o ...
+.data:00B86028 dword_B86028 dd 0EEh                    ; DATA XREF: .text:00B81264↑r
+.data:00B86028                                         ; .text:00B814B1↑o ...
+.data:00B8602C dword_B8602C dd 8D7h                    ; DATA XREF: .text:00B81298↑o
+.data:00B8602C                                         ; .text:00B8157B↑o ...
+.data:00B86030 dword_B86030 dd 82h                     ; DATA XREF: .text:00B812CE↑o
+.data:00B86030                                         ; .text:00B81644↑o ...
+.data:00B86034 dword_B86034 dd 0A5h                    ; DATA XREF: .text:00B812FF↑o
+.data:00B86034                                         ; .text:00B81712↑o ...
+.data:00B86038 dword_B86038 dd 83Fh                    ; DATA XREF: .text:00B81330↑o
+.data:00B86038                                         ; .text:00B81836↑o ...
+.data:00B8603C dword_B8603C dd 6Fh                     ; DATA XREF: .text:00B81366↑o
+.data:00B8603C                                         ; .text:00B81A43↑o ...
+.data:00B86040 dword_B86040 dd 0BFh                    ; DATA XREF: .text:00B81397↑o
+.data:00B86040                                         ; .text:00B81C51↑o ...
+.data:00B86044 dword_B86044 dd 95Eh                    ; DATA XREF: .text:00B813C8↑o
+.data:00B86044                                         ; .text:00B81E5C↑o ...
+.data:00B86048 dword_B86048 dd 32h                     ; DATA XREF: .text:00B813FE↑o
+.data:00B86048                                         ; .text:00B81FB0↑o ...
+.data:00B8604C dword_B8604C dd 0B8h                    ; DATA XREF: .text:00B8142F↑o
+.data:00B8604C                                         ; .text:00B82050↑o ...
+.data:00B86050 dword_B86050 dd 0AB0h                   ; DATA XREF: .text:00B81460↑o
+.data:00B86054 dword_B86054 dd 74h                     ; DATA XREF: .text:00B81496↑o
+.data:00B86058 dword_B86058 dd 7Dh                     ; DATA XREF: .text:00B814C7↑o
+.data:00B8605C dword_B8605C dd 50Bh                    ; DATA XREF: .text:00B814F9↑o
+.data:00B86060 dword_B86060 dd 42h                     ; DATA XREF: .text:00B8152F↑o
+.data:00B86064 dword_B86064 dd 0F9h                    ; DATA XREF: .text:00B81560↑o
+.data:00B86068 dword_B86068 dd 0B9Dh                   ; DATA XREF: .text:00B81591↑o
+.data:00B8606C dword_B8606C dd 7Dh                     ; DATA XREF: .text:00B815C7↑o
+.data:00B86070 dword_B86070 dd 0E5h                    ; DATA XREF: .text:00B815F8↑o
+.data:00B86074 dword_B86074 dd 0B6Ch                   ; DATA XREF: .text:00B81629↑o
+.data:00B86078 dword_B86078 dd 7Bh                     ; DATA XREF: .text:00B8165F↑o
+.data:00B8607C dword_B8607C dd 0B6h                    ; DATA XREF: .text:00B81690↑o
+.data:00B86080 dword_B86080 dd 5CFh                    ; DATA XREF: .text:00B816C1↑o
+.data:00B86084 dword_B86084 dd 86h                     ; DATA XREF: .text:00B816F7↑o
+.data:00B86088 dword_B86088 dd 0C2h                    ; DATA XREF: .text:00B81728↑o
+.data:00B8608C dword_B8608C dd 58Fh                    ; DATA XREF: .text:00B81760↑o
+.data:00B86090 dword_B86090 dd 5BBh                    ; DATA XREF: .text:00B81798↑o
+.data:00B86094 dword_B86094 dd 18CEh                   ; DATA XREF: .text:00B8181B↑o
+.data:00B86098 dword_B86098 dd 0A97Eh                  ; DATA XREF: .text:00B8189E↑o
+.data:00B8609C dword_B8609C dd 6B00h                   ; DATA XREF: .text:00B81921↑o
+.data:00B860A0 dword_B860A0 dd 0DA17h                  ; DATA XREF: .text:00B819A4↑o
+.data:00B860A4 dword_B860A4 dd 892B4h                  ; DATA XREF: .text:00B81A28↑o
+.data:00B860A8 dword_B860A8 dd 12F064h                 ; DATA XREF: .text:00B81AAC↑o
+.data:00B860AC dword_B860AC dd 24859h                  ; DATA XREF: .text:00B81B30↑o
+.data:00B860B0 dword_B860B0 dd 24A29h                  ; DATA XREF: .text:00B81BB4↑o
+.data:00B860B4 dword_B860B4 dd 3E7h                    ; DATA XREF: .text:00B81C36↑o
+.data:00B860B8 dword_B860B8 dd 0A50C7h                 ; DATA XREF: .text:00B81CBA↑o
+.data:00B860BC dword_B860BC dd 8BEFh                   ; DATA XREF: .text:00B81D3D↑o
+.data:00B860C0 dword_B860C0 dd 36Dh                    ; DATA XREF: .text:00B81DBF↑o
+.data:00B860C4 dword_B860C4 dd 133h                    ; DATA XREF: .text:00B81E41↑o
+.data:00B860C8 dword_B860C8 dd 2CFh                    ; DATA XREF: .text:00B81EC3↑o
+.data:00B860CC dword_B860CC dd 1A1h                    ; DATA XREF: .text:00B81F45↑o
+.data:00B860D0 dword_B860D0 dd 38h                     ; DATA XREF: .text:00B81F6D↑o
+.data:00B860D4 dword_B860D4 dd 33h                     ; DATA XREF: .text:00B81F95↑o
+.data:00B860D8 dword_B860D8 dd 66h                     ; DATA XREF: .text:00B81FBD↑o
+.data:00B860DC dword_B860DC dd 35h                     ; DATA XREF: .text:00B81FE5↑o
+.data:00B860E0 dword_B860E0 dd 32h                     ; DATA XREF: .text:00B8200D↑o
+.data:00B860E4 dword_B860E4 dd 31h                     ; DATA XREF: .text:00B82035↑o
+.data:00B860E8 dword_B860E8 dd 34h                     ; DATA XREF: .text:00B8205D↑o
+.data:00B860EC dword_B860EC dd 34h                     ; DATA XREF: .text:00B82085↑o
