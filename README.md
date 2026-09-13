@@ -23,3 +23,6 @@ Every writeup follows one fixed template: metadata, triage/recon, static analysi
 - [RE02 — 32-bit Layered Constraint Validator](Language_Specific_Crackmes/C_C++/writeup_4/Reversed_RE02_Layered_Constraint_Validator.md) — 32-bit, anti-decompilation (opaque-predicate overlap) and a data-poisoning anti-debug; 54 chained arithmetic layers over a 49-byte input, scheme fully recovered.
 - [Bytecode-VM Key Validator](Language_Specific_Crackmes/C_C++/writeup_5/Bytecode_VM_Key_Validator.md) — a custom switch-dispatch bytecode VM that XORs the key with 0x11 and compares to a fixed string; key recovered by inverting the XOR.
 - [VEH-Guarded SipHash License Validator](Language_Specific_Crackmes/C_C++/writeup_6/VEH_Guarded_SipHash_License_Validator.md) — anti-debug hidden in a Vectored Exception Handler (ud2), rdtsc timing, ThreadHideFromDebugger; keyed SipHash with a one-way gate, solved by patching the comparison constant.
+
+### Crackmes — .NET (Managed)
+- [MultiTool — Plaintext Credential Check](Language_Specific_Crackmes/DOT_NET/DOT_NET_Managed/writeup_1/MultiTool_Plaintext_Credential_Check.md) — unobfuscated WinForms login; credentials read directly from the decompiled `button1_Click` handler.
