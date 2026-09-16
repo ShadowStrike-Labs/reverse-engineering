@@ -72,7 +72,6 @@ Worked example for username `crck`:
 - **Username:** `crck`
 - **Password:** `gvgo`
 
-![Reading a character's ASCII value in the evaluator](01_eval_ascii_example.png)
 ![Success — crck / gvgo](02_success.png)
 
 Keygen, one line:
