@@ -1,0 +1,50 @@
+							Welcome to my very first ever crackme!							
+						    --------------------------------------
+
+Intro:
+------
+I had so much fun writing this. I hope you enjoy taking it apart.
+I learned a lot and I hope you do too! Here are some hashes of the
+included files. They should also be posted in the crackme description
+on www.crackmes.one where this was originally uploaded.
+
+
+helper.dll hashes
+-----------------
+MD5	--------> 55B4C36AE11AE887514FEF98012DD4E8
+SHA-1 ------> A80BF093EA1EFEF2631882ED2777373FF2449EA0
+SHA-256 ----> 1E0EBB3C5BAA4003EF7603CC16EC086ED82F9FED9D583CCE07628235900BCFF1
+RIPEMD-256 -> 745A13D9723056D4BAEF4081A61066A2D4C2C73452D3F9730DD1A76CB0D27991
+
+WhichKeyIsIt.exe hashes
+-----------------------
+MD5 --------> CBF9019FAA580D7203493862AA420CF5
+SHA-1 ------> 37AD079D0A2930B29D6431887820C3934C09022E
+SHA-256 ----> 76D9EAF18299E45E282AC9950CEB41D3E1713BB4F04B88B2E99521C2A0BD1E2D
+RIPEMD-256 -> E0B1F9AE2C80E563DB2AF8CC138CC8A0F4FBABD9E0B3E4130922BAC362252CB4
+
+
+Rules:
+------
+1) No patching!! - The nature of the functions make this too trivial.
+2) Serial fishing is ok, and the ability to do so is part of the design.
+   No obfuscation or encryption is used on the code itself.
+
+
+Goals:
+------
+1) Write a KeyGen!
+2) Serial fish... if you must.
+3) Write up an excellent tutorial for other to learn from!!
+
+
+Closing:
+--------
+I certainly hope there aren't any bugs in here. However, I'm still pretty new
+to all this and who knows. If you find one, let me know!
+
+
+A big thank you to s4r and all those who help make crackmes.one what it is.
+
+Cheers,
+-xor0
