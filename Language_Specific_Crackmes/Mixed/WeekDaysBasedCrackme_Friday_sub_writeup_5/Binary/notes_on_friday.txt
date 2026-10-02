@@ -1,0 +1,13 @@
+D[i] == D[i] XOR S[i+8]
+D[i+8] == D[i+8] XOR S[i] 
+
+ cmp     [ecx+eax], bl   ; if(Digest[i+8] != Digest[i]) --> Jump to fail Location
+
+From here on
+
+D[i] XOR S[i+8] == D[i+8] XOR S[i] --> D[i] XOR D[i+8] = S[i+8] XOR S[i]
+
+So the Only Solution that satisfies this equation is D = S (Digest = Serial_Key)
+
+So those were all just obfuscations not sophsiticated calculations at all at the end code checks for that the:
+MD5_HASH_OF(Username_input) == Serial_Key ? -> Thats the whole idea.
