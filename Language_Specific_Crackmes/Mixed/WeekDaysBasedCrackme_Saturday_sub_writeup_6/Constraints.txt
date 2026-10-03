@@ -1,0 +1,71 @@
+Saturday challenge wants couple of things. 
+
+1. Lenght(Serial_Key) == 24 bytes
+2. byteswap(Adler32(Username_input)) == Str_Serial's first 4 bytes.
+
+var(byte1) = mem_reg[1]
+var(byte0) == mem_reg[1]'s second byte.
+mem_reg[1] --> 4 bytes long.
+var->4 bytes long.
+var= [byte_3][byte_2][mem_reg[1]_second_byte][mem_reg[1]_first_byte]
+var= 0x0000[mem_reg[1]_byte_0][mem_reg[1]_byte_1] -> byte0(var) = [mem_reg[1]_byte_1]  , byte1(var) =[mem_reg[1]_byte_0]
+16-bit value = Byte1 * 256 + Byte0
+
+var = [mem_reg[1]_byte_0] * 256 + [mem_reg[1]_byte_1];
+
+3.1000<serial_str_byte_0 * 256 + serial_str_byte_1<9999
+
+var_2(byte1) = byte_3_of_decoded_serial_key
+var_2(byte0) = byte_4_of_decoded_serial_key
+var_2 -> int -> [byte_3][byte_2][byte_1][byte_0]
+var_2 ->[byte_3][byte_2][byte_3_of_decoded_serial_key][byte_4_of_decoded_serial_key]
+
+16-bit value = Byte1 * 256 + Byte0
+
+unsigned_int16(low 16-bit) of var_2 = byte_3_of_decoded_serial_key * 256 + byte_4_of_decoded_serial_key
+
+
+So from here on total:
+
+var= [byte_3][byte_2][byte_2_of_decoded_serial_key][byte_1of_decoded_serial_key]
+var_2= [byte_3][byte_2][byte_3_of_decoded_serial_key][byte_4_of_decoded_serial_key]
+
+
+
+4.1000<=byte_3_of_decoded_serial_key * 256 + byte_4_of_decoded_serial_key<=9999
+
+Result = (low-16-bit-of)var_2 *(low-16-bit-of)var) & 0x7FFF)
+5. var_2 XOR var XOR Result== 0
+
+mem_reg-0 --> 0-1-2-3
+mem_reg-1 --> 4-5-6-7
+mem_reg-2 --> 8-9-10-11
+
+var_3(byte1) = byte8_of_Serial_Key
+var_3(byte0) = byte_9_of_Serial_Key
+1000=<(low-16-bit-of)var_3<=9999
+
+6.1000<=(low-16-bit-of)var_3<=9999
+
+var_4(byte1) = byte10_of_Serial_Key
+var_4(byte0) = byte11_of_Serial_Key
+
+7. 1000<=(low-16-bit-of)var_4<=9999
+
+Result = ((low-16-bit-of)var_2 *(low-16-bit-of)var))/1024
+
+8. var_2 XOR var XOR Result == 0
+
+9. str_serial[8] == 45('-')
+
+10.str_serial[13] == 45('-')
+
+11.str_serial[18] == 45('-')
+
+12.str_serial[23] == 45('-')
+
+
+
+
+
+
