@@ -1,0 +1,49 @@
+ ESP From Top to the below
+
+  input_byte_3
+  input_byte_4
+  input_byte_7
+  input_byte_5
+  input_byte_6
+  input_byte_1
+  input_byte_2
+
+   pop ecx --> input_byte_3
+   pop edx --> input_byte_4
+
+   So Conditions are :
+
+  1.input_byte_1 == 0x68
+  2.input_byte_2 == 0x33
+  3.input_byte_3 == 0x34
+  4.input_byte_4 == 0x76
+
+
+  eax -> input_byte_5
+  ebx -> input_byte_6
+
+  eax => input_byte_5 + input_byte_6
+
+  6.(input_byte_5 + input_byte_6) == 0xB3(Decimal 179)
+  modifying the 6th constraint
+  --> input_byte_5 + input_byte_6 == 179
+
+  And here eax = input_byte_5 + input_byte_6
+
+  7.[[[eax - input_byte_6] * 2] - input_byte_6] == 0x1C(28 decimal)
+  Modifying 7th constraint
+  -->2*input_byte_5 - input_byte_6 == 28
+
+  Solving this equation gives:
+  python:> 69 110
+  (input_byte_5,input_byte_6) = (69,110) =(45,6E)
+
+  So input_byte_5 should be 0x45 , input_byte_6 should be 0x6E.
+
+
+  since here popping ecx-edx-edx advances ESP 24 bytes [ESP+24] Which equals input_byte_7
+
+  So last constraint :
+  8. input_byte_7 == 0
+
+  KEY = 68 33 34 76 45 6E 00  ->  "h34vEn"
