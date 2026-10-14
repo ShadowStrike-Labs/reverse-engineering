@@ -1,0 +1,49 @@
+Im seeing that the binary does not have any tls callbacks.
+
+
+case1(reads reg index - reads value)
+case 0x26 -> Writes to the console.
+case 0x22,0x20,0x1F-> gets input
+
+case1(reads input again)
+case 0x13 -> Main Comparison Point
+
+case 0x15-> jump calculator for the fail and success branches( Block_3[11] & 1 != 0 check comes from here)
+
+case 0x14 -> Direct jmp. Its not checking for conditions its directly jumping into LABEL_61;
+
+Also im seeing this VM has 0x27 cases with the almost 1k lines of code but lots of them is just garbage and not used at all. So making static-analysises on VMs such this is very hard dynamic analysis should do its work at best.
+
+Block_3[11] & 1 != 0 So to satisfy this check -> v10 == v11 this should get satisfied at case-13.
+
+And also im noting that the vm_state[256] field asks for if the debug mode is enabled.
+
+v11 value for different kind of inputs :
+
+efgeefgeefge ->0 and 0x10F2CLL
+abcdabcdabcd -> 0 and 0x10F2CLL
+abcd -> 0 and0x10F2CLL
+So its not changing with different inputs and lengths. 
+
+aah now i got the idea the program wants decimal or hexadecimal inputs i think because it always gives zero for the inputs filled with characters.
+
+ 000000436658FAC8 ->std::cin overloaded func address captured with HW BP
+
+compares addr_of(rsp+arg_40) and addr_of(rsp+arg_30)
+
+for the input 12345678 :
+
+addr_of(rsp+arg_40) => User_input(12345678)
+addr_of(rsp+arg_30) => 0x30,0xF9,0x58,0x66,0x43,0x0,0x0,0x0,0xD0,0x25,0x31,0xE5,0x5E,0x1,0x0,0x0
+
+aah this becomes sophisticated rather than trying to read that overloaded cin function lemme try to look at the main comparison func and try black-box method if possible.
+
+
+98765432 -> RDI = NULL , Rax = 0x5E30A78(This is v10) v11 = 0x10F2CLL So the goal is to put a such X number that will be equal to the 0x10F2CLL.
+
+So the right answer should be:
+
+0x10F2C -> 69420 decimal 
+
+Aaaand Victory! 
+
