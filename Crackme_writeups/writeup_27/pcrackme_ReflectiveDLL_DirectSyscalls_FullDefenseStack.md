@@ -209,8 +209,6 @@ After the prompt the DLL does **not** call a straightforward `ReadFile` on `stdi
 NtQueryInformationProcess -> NtReadVirtualMemory -> NtDelayExecution
 ```
 
-### 6.3 Hypothesis: resolver-slot rebinding
-The call-site at the bottom of the triplet is tagged `NtDelayExecution` in the dispatcher, but single-stepping past it after `stdin` fulfils the read does not re-enter the delay stub — it lands partway into a different routine that is unrelated to `NtDelayExecution`. One global (`qword_1E84DB55…`) is written to between the loader phase and the DLL-live phase, and the resolver's binary search is driven by that pointer. The working hypothesis is that **the resolver table is rebound once the DLL takes over**, so the same hash resolves to a different Nt-service in the second phase. The alternative — that it was never `NtDelayExecution` to begin with and the loader-phase label is wrong — is harder to reconcile with the loader-phase 10 ms pacing, which does match a `NtDelayExecution(-100000)` behaviourally. Confirming this rigorously would mean dumping and diffing the resolver table at phase boundaries; that was left for a follow-up.
 
 ## 7. The Two Decision Gates
 After the loop releases on input, control reaches a short tail with two independent checks and an anti-debug call wedged between them. All three sit inside the DLL body.
