@@ -16,7 +16,7 @@ Every writeup follows one fixed template: metadata, triage/recon, static analysi
 
 ## Crackmes
 
-Twenty-eight writeups in ascending difficulty. Writeups **04, 12, 15, 16, 17, 20, 21** are sub-challenges of the same binary (WeekDaysBased — a .NET shell over a native `helper.dll` whose `xor0_fun` export dispatches on `wDayOfWeek` to seven per-weekday handlers); each is self-contained and includes a short note of the shared architecture inline.
+Twenty-nine writeups in ascending difficulty. Writeups **04, 12, 15, 16, 17, 20, 21** are sub-challenges of the same binary (WeekDaysBased — a .NET shell over a native `helper.dll` whose `xor0_fun` export dispatches on `wDayOfWeek` to seven per-weekday handlers); each is self-contained and includes a short note of the shared architecture inline.
 
 - [01 — MultiTool, Plaintext Credential Check (.NET Managed)](Crackme_writeups/writeup_01/MultiTool_Plaintext_Credential_Check.md) — unobfuscated WinForms login; credentials read directly from the decompiled `button1_Click` handler. _Difficulty 1.0 / 6._
 - [02 — chip-8, Plaintext Serial in the Managed DLL](Crackme_writeups/writeup_02/chip8_Plaintext_Serial.md) — .NET Core apphost `.exe` + managed `.dll`; serial compared to a plaintext literal in `Program.Main`. _Difficulty 1.0 / 6._
@@ -46,6 +46,7 @@ Twenty-eight writeups in ascending difficulty. Writeups **04, 12, 15, 16, 17, 20
 - [26 — RE02, 32-bit Layered Constraint Validator](Crackme_writeups/writeup_26/Reversed_RE02_Layered_Constraint_Validator.md) — 32-bit, anti-decompilation (opaque-predicate overlap) and a data-poisoning anti-debug; 54 chained arithmetic layers over a 49-byte input, scheme fully recovered. _Difficulty 4.5 / 6._
 - [27 — pcrackme, reflective DLL + direct syscalls (full defense stack)](Crackme_writeups/writeup_27/pcrackme_ReflectiveDLL_DirectSyscalls_FullDefenseStack.md) — a hardened Windows x64 crackme: opaque pointer-table call sites, a direct-syscall trampoline through `gs:[0]`/`gs:[0x150]`, reflective DLL injection into the process itself (with a `0x404040` sync sentinel), MBA (Mixed Boolean Arithmetic) on the saved return address as a soft tamper check, and a late `ThreadHideFromDebugger`; solved by neutralising the two decision gates at runtime (ZF flips + RIP skip) — defense stack mapped end-to-end, password not pursued. _Difficulty 5.2 / 6._
 - [28 — rust-crackme-easy (Rust), username/password QWORD compare](Crackme_writeups/writeup_28/rust_crackme_easy_Username_Password_QWORD_Compare.md) — first Rust target (PE64, rustc 1.97.0, MSVC). Microsoft RIFT applied Rust-stdlib FLIRT signatures (192 symbols), so `main` reads end-to-end: two length-8 checks and two QWORD compares against `'srekcarc'` and `'tnuhssap'` — reverse each 8-char ASCII immediate for `crackers` / `passhunt`. _Difficulty 1.0 / 6._
+- [29 — Adwa Chronicle 1896 (Rust CTF): "Word of Victory" memcmp, solved dynamically](Crackme_writeups/writeup_29/Adwa_Chronicle_1896_Word_of_Victory_memcmp.md) — PE64 Rust CTF; ~1800-line `main` with heavy UTF-8 / `String` noise, but the real gate is one `memcmp` in option 3's handler against a locally-built 11-byte buffer. Observed the expected buffer live in the debugger (`RDI` = `LIONOFJUDAH`) → flag `ADWA{th3_l10n_d3f3at3d_th3_r0m4n}`. _Difficulty 2.0 / 6._
 
 ## Malware Analysis
 
