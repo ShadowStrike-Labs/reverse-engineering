@@ -1,0 +1,1704 @@
+========================================================================
+VM Handler Profile
+========================================================================
+Total hits captured: 1173
+Unique handlers:     109
+Unique handler tags: TRIV=94, MEM=10, COND=4, CALL=1
+
+------------------------------------------------------------------------
+Section 1 - Sequential trace (every F9 hit, in order)
+------------------------------------------------------------------------
+[   1]  0x00007ff6d0011b8f  rl_location_001                 RCX=0x0000  tag=MEM   n= 4  cond=0  mem=1  call=0
+[   2]  0x00007ff6d0011267  rl_location_002                 RCX=0x0000  tag=MEM   n= 4  cond=0  mem=1  call=0
+[   3]  0x00007ff6d00124b0  rl_location_003                 RCX=0x0000  tag=MEM   n= 6  cond=0  mem=2  call=0
+[   4]  0x00007ff6d001213e  obf_location_063                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[   5]  0x00007ff6d0012145  obf_location_064                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[   6]  0x00007ff6d0012106  obf_location_055                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[   7]  0x00007ff6d0012114  obf_location_057                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[   8]  0x00007ff6d00117dc  rl_location_004                 RCX=0x0000  tag=MEM   n= 6  cond=0  mem=3  call=0
+[   9]  0x00007ff6d0012a01  obf_location_085                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  10]  0x00007ff6d001155c  obf_location_019                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  11]  0x00007ff6d0012c37  obf_location_092                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  12]  0x00007ff6d0012a94  obf_location_088                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  13]  0x00007ff6d00114db  obf_location_017                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  14]  0x00007ff6d0011b7a  obf_location_032                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  15]  0x00007ff6d001206c  obf_location_048                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  16]  0x00007ff6d00112d0  rl_location_005                 RCX=0x0000  tag=MEM   n= 5  cond=0  mem=1  call=0
+[  17]  0x00007ff6d00124d8  obf_location_070                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  18]  0x00007ff6d0011808  obf_location_025                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  19]  0x00007ff6d001180f  obf_location_026                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  20]  0x00007ff6d001146b  obf_location_013                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  21]  0x00007ff6d00112ba  rl_location_006                 RCX=0x0000  tag=MEM   n= 5  cond=0  mem=1  call=0
+[  22]  0x00007ff6d00120f1  obf_location_052                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  23]  0x00007ff6d001251e  obf_location_071                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  24]  0x00007ff6d0012525  obf_location_072                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  25]  0x00007ff6d00115ef  obf_location_022                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  26]  0x00007ff6d00114c6  rl_location_007                 RCX=0x0000  tag=MEM   n= 6  cond=0  mem=1  call=0
+[  27]  0x00007ff6d0011cbc  obf_location_039                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  28]  0x00007ff6d0011d9c  obf_location_044                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  29]  0x00007ff6d0012295  obf_location_067                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  30]  0x00007ff6d0011de9  rl_location_008                 RCX=0x0000  tag=MEM   n= 3  cond=0  mem=1  call=0
+[  31]  0x00007ff6d0011aa1  obf_location_029                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  32]  0x00007ff6d0011b88  obf_location_034                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  33]  0x00007ff6d0011ae7  obf_location_030                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  34]  0x00007ff6d00114b1  obf_location_014                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  35]  0x00007ff6d0011404  obf_location_010                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  36]  0x00007ff6d00128f0  obf_location_082                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  37]  0x00007ff6d001264b  obf_location_076                RCX=0x0000  tag=TRIV  n= 3  cond=0  mem=0  call=0
+[  38]  0x00007ff6d00111c3  obf_location_005                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  39]  0x00007ff6d0012248  obf_location_065                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  40]  0x00007ff6d0011260  obf_location_008                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  41]  0x00007ff6d0011464  obf_location_012                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  42]  0x00007ff6d0011334  obf_location_009                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  43]  0x00007ff6d001211b  obf_location_058                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  44]  0x00007ff6d0012026  obf_location_047                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  45]  0x00007ff6d00117fe  obf_location_024                RCX=0x0000  tag=TRIV  n= 3  cond=0  mem=0  call=0
+[  46]  0x00007ff6d0011d95  obf_location_043                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  47]  0x00007ff6d0012724  obf_location_079                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  48]  0x00007ff6d0012605  obf_location_075                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  49]  0x00007ff6d001271d  obf_location_078                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  50]  0x00007ff6d00120ff  obf_location_054                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  51]  0x00007ff6d0012ac2  obf_location_089                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  52]  0x00007ff6d0012137  obf_location_062                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  53]  0x00007ff6d0011267  rl_location_002                 RCX=0x0000  tag=MEM   n= 4  cond=0  mem=1  call=0
+[  54]  0x00007ff6d00124b0  rl_location_003                 RCX=0x0000  tag=MEM   n= 6  cond=0  mem=2  call=0
+[  55]  0x00007ff6d001213e  obf_location_063                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  56]  0x00007ff6d0012145  obf_location_064                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  57]  0x00007ff6d0012106  obf_location_055                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  58]  0x00007ff6d0012114  obf_location_057                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  59]  0x00007ff6d00117dc  rl_location_004                 RCX=0x0000  tag=MEM   n= 6  cond=0  mem=3  call=0
+[  60]  0x00007ff6d0012a01  obf_location_085                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  61]  0x00007ff6d001155c  obf_location_019                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  62]  0x00007ff6d0012c37  obf_location_092                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  63]  0x00007ff6d0012a94  obf_location_088                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  64]  0x00007ff6d00114db  obf_location_017                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  65]  0x00007ff6d0011b7a  obf_location_032                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  66]  0x00007ff6d001206c  obf_location_048                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  67]  0x00007ff6d00112d0  rl_location_005                 RCX=0x0000  tag=MEM   n= 5  cond=0  mem=1  call=0
+[  68]  0x00007ff6d00124d8  obf_location_070                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  69]  0x00007ff6d0011808  obf_location_025                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  70]  0x00007ff6d001180f  obf_location_026                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  71]  0x00007ff6d001146b  obf_location_013                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  72]  0x00007ff6d00112ba  rl_location_006                 RCX=0x0000  tag=MEM   n= 5  cond=0  mem=1  call=0
+[  73]  0x00007ff6d00120f1  obf_location_052                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  74]  0x00007ff6d001251e  obf_location_071                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  75]  0x00007ff6d0012525  obf_location_072                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  76]  0x00007ff6d00115ef  obf_location_022                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  77]  0x00007ff6d00114c6  rl_location_007                 RCX=0x0000  tag=MEM   n= 6  cond=0  mem=1  call=0
+[  78]  0x00007ff6d0011cbc  obf_location_039                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  79]  0x00007ff6d0011d9c  obf_location_044                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  80]  0x00007ff6d0012295  obf_location_067                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  81]  0x00007ff6d0011de9  rl_location_008                 RCX=0x0000  tag=MEM   n= 3  cond=0  mem=1  call=0
+[  82]  0x00007ff6d0011aa1  obf_location_029                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  83]  0x00007ff6d0011b88  obf_location_034                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  84]  0x00007ff6d0011ae7  obf_location_030                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  85]  0x00007ff6d00114b1  obf_location_014                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  86]  0x00007ff6d0011404  obf_location_010                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  87]  0x00007ff6d00128f0  obf_location_082                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  88]  0x00007ff6d001264b  obf_location_076                RCX=0x0000  tag=TRIV  n= 3  cond=0  mem=0  call=0
+[  89]  0x00007ff6d00111c3  obf_location_005                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  90]  0x00007ff6d0012248  obf_location_065                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  91]  0x00007ff6d0011260  obf_location_008                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  92]  0x00007ff6d0011464  obf_location_012                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  93]  0x00007ff6d0011334  obf_location_009                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  94]  0x00007ff6d001211b  obf_location_058                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  95]  0x00007ff6d0012026  obf_location_047                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  96]  0x00007ff6d00117fe  obf_location_024                RCX=0x0000  tag=TRIV  n= 3  cond=0  mem=0  call=0
+[  97]  0x00007ff6d0011d95  obf_location_043                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  98]  0x00007ff6d0012724  obf_location_079                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[  99]  0x00007ff6d0012605  obf_location_075                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 100]  0x00007ff6d001271d  obf_location_078                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 101]  0x00007ff6d00120ff  obf_location_054                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 102]  0x00007ff6d0012ac2  obf_location_089                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 103]  0x00007ff6d0012137  obf_location_062                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 104]  0x00007ff6d0011267  rl_location_002                 RCX=0x0000  tag=MEM   n= 4  cond=0  mem=1  call=0
+[ 105]  0x00007ff6d00124b0  rl_location_003                 RCX=0x0000  tag=MEM   n= 6  cond=0  mem=2  call=0
+[ 106]  0x00007ff6d001213e  obf_location_063                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 107]  0x00007ff6d0012145  obf_location_064                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 108]  0x00007ff6d0012106  obf_location_055                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 109]  0x00007ff6d0012114  obf_location_057                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 110]  0x00007ff6d00117dc  rl_location_004                 RCX=0x0000  tag=MEM   n= 6  cond=0  mem=3  call=0
+[ 111]  0x00007ff6d0012a01  obf_location_085                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 112]  0x00007ff6d001155c  obf_location_019                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 113]  0x00007ff6d0012c37  obf_location_092                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 114]  0x00007ff6d0012a94  obf_location_088                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 115]  0x00007ff6d00114db  obf_location_017                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 116]  0x00007ff6d0011b7a  obf_location_032                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 117]  0x00007ff6d001206c  obf_location_048                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 118]  0x00007ff6d00112d0  rl_location_005                 RCX=0x0000  tag=MEM   n= 5  cond=0  mem=1  call=0
+[ 119]  0x00007ff6d00124d8  obf_location_070                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 120]  0x00007ff6d0011808  obf_location_025                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 121]  0x00007ff6d001180f  obf_location_026                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 122]  0x00007ff6d001146b  obf_location_013                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 123]  0x00007ff6d00112ba  rl_location_006                 RCX=0x0000  tag=MEM   n= 5  cond=0  mem=1  call=0
+[ 124]  0x00007ff6d00120f1  obf_location_052                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 125]  0x00007ff6d001251e  obf_location_071                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 126]  0x00007ff6d0012525  obf_location_072                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 127]  0x00007ff6d00115ef  obf_location_022                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 128]  0x00007ff6d00114c6  rl_location_007                 RCX=0x0000  tag=MEM   n= 6  cond=0  mem=1  call=0
+[ 129]  0x00007ff6d0011cbc  obf_location_039                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 130]  0x00007ff6d0011d9c  obf_location_044                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 131]  0x00007ff6d0012295  obf_location_067                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 132]  0x00007ff6d0011de9  rl_location_008                 RCX=0x0000  tag=MEM   n= 3  cond=0  mem=1  call=0
+[ 133]  0x00007ff6d0011aa1  obf_location_029                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 134]  0x00007ff6d0011b88  obf_location_034                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 135]  0x00007ff6d0011ae7  obf_location_030                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 136]  0x00007ff6d00114b1  obf_location_014                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 137]  0x00007ff6d0011404  obf_location_010                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 138]  0x00007ff6d00128f0  obf_location_082                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 139]  0x00007ff6d001264b  obf_location_076                RCX=0x0000  tag=TRIV  n= 3  cond=0  mem=0  call=0
+[ 140]  0x00007ff6d00111c3  obf_location_005                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 141]  0x00007ff6d0012248  obf_location_065                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 142]  0x00007ff6d0011260  obf_location_008                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 143]  0x00007ff6d0011464  obf_location_012                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 144]  0x00007ff6d0011334  obf_location_009                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 145]  0x00007ff6d001211b  obf_location_058                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 146]  0x00007ff6d0012026  obf_location_047                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 147]  0x00007ff6d00117fe  obf_location_024                RCX=0x0000  tag=TRIV  n= 3  cond=0  mem=0  call=0
+[ 148]  0x00007ff6d0011d95  obf_location_043                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 149]  0x00007ff6d0012724  obf_location_079                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 150]  0x00007ff6d0012605  obf_location_075                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 151]  0x00007ff6d001271d  obf_location_078                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 152]  0x00007ff6d00120ff  obf_location_054                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 153]  0x00007ff6d0012ac2  obf_location_089                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 154]  0x00007ff6d0012137  obf_location_062                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 155]  0x00007ff6d0011267  rl_location_002                 RCX=0x0000  tag=MEM   n= 4  cond=0  mem=1  call=0
+[ 156]  0x00007ff6d00124b0  rl_location_003                 RCX=0x0000  tag=MEM   n= 6  cond=0  mem=2  call=0
+[ 157]  0x00007ff6d001213e  obf_location_063                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 158]  0x00007ff6d0012145  obf_location_064                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 159]  0x00007ff6d0012106  obf_location_055                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 160]  0x00007ff6d0012114  obf_location_057                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 161]  0x00007ff6d00117dc  rl_location_004                 RCX=0x0000  tag=MEM   n= 6  cond=0  mem=3  call=0
+[ 162]  0x00007ff6d0012a01  obf_location_085                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 163]  0x00007ff6d001155c  obf_location_019                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 164]  0x00007ff6d0012c37  obf_location_092                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 165]  0x00007ff6d0012a94  obf_location_088                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 166]  0x00007ff6d00114db  obf_location_017                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 167]  0x00007ff6d0011b7a  obf_location_032                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 168]  0x00007ff6d001206c  obf_location_048                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 169]  0x00007ff6d00112d0  rl_location_005                 RCX=0x0000  tag=MEM   n= 5  cond=0  mem=1  call=0
+[ 170]  0x00007ff6d00124d8  obf_location_070                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 171]  0x00007ff6d0011808  obf_location_025                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 172]  0x00007ff6d001180f  obf_location_026                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 173]  0x00007ff6d001146b  obf_location_013                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 174]  0x00007ff6d00112ba  rl_location_006                 RCX=0x0000  tag=MEM   n= 5  cond=0  mem=1  call=0
+[ 175]  0x00007ff6d00120f1  obf_location_052                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 176]  0x00007ff6d001251e  obf_location_071                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 177]  0x00007ff6d0012525  obf_location_072                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 178]  0x00007ff6d00115ef  obf_location_022                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 179]  0x00007ff6d00114c6  rl_location_007                 RCX=0x0000  tag=MEM   n= 6  cond=0  mem=1  call=0
+[ 180]  0x00007ff6d0011cbc  obf_location_039                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 181]  0x00007ff6d0011d9c  obf_location_044                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 182]  0x00007ff6d0012295  obf_location_067                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 183]  0x00007ff6d0011de9  rl_location_008                 RCX=0x0000  tag=MEM   n= 3  cond=0  mem=1  call=0
+[ 184]  0x00007ff6d0011aa1  obf_location_029                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 185]  0x00007ff6d0011b88  obf_location_034                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 186]  0x00007ff6d0011ae7  obf_location_030                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 187]  0x00007ff6d00114b1  obf_location_014                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 188]  0x00007ff6d0011404  obf_location_010                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 189]  0x00007ff6d00128f0  obf_location_082                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 190]  0x00007ff6d001264b  obf_location_076                RCX=0x0000  tag=TRIV  n= 3  cond=0  mem=0  call=0
+[ 191]  0x00007ff6d00111c3  obf_location_005                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 192]  0x00007ff6d0012248  obf_location_065                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 193]  0x00007ff6d0011260  obf_location_008                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 194]  0x00007ff6d0011464  obf_location_012                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 195]  0x00007ff6d0011334  obf_location_009                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 196]  0x00007ff6d001211b  obf_location_058                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 197]  0x00007ff6d0012026  obf_location_047                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 198]  0x00007ff6d00117fe  obf_location_024                RCX=0x0000  tag=TRIV  n= 3  cond=0  mem=0  call=0
+[ 199]  0x00007ff6d0011d95  obf_location_043                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 200]  0x00007ff6d0012724  obf_location_079                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 201]  0x00007ff6d0012605  obf_location_075                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 202]  0x00007ff6d001271d  obf_location_078                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 203]  0x00007ff6d00120ff  obf_location_054                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 204]  0x00007ff6d0012ac2  obf_location_089                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 205]  0x00007ff6d0012137  obf_location_062                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 206]  0x00007ff6d0011267  rl_location_002                 RCX=0x0000  tag=MEM   n= 4  cond=0  mem=1  call=0
+[ 207]  0x00007ff6d00124b0  rl_location_003                 RCX=0x0000  tag=MEM   n= 6  cond=0  mem=2  call=0
+[ 208]  0x00007ff6d001213e  obf_location_063                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 209]  0x00007ff6d0012145  obf_location_064                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 210]  0x00007ff6d0012106  obf_location_055                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 211]  0x00007ff6d0012114  obf_location_057                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 212]  0x00007ff6d00117dc  rl_location_004                 RCX=0x0000  tag=MEM   n= 6  cond=0  mem=3  call=0
+[ 213]  0x00007ff6d0012a01  obf_location_085                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 214]  0x00007ff6d001155c  obf_location_019                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 215]  0x00007ff6d0012c37  obf_location_092                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 216]  0x00007ff6d0012a94  obf_location_088                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 217]  0x00007ff6d00114db  obf_location_017                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 218]  0x00007ff6d0011b7a  obf_location_032                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 219]  0x00007ff6d001206c  obf_location_048                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 220]  0x00007ff6d00112d0  rl_location_005                 RCX=0x0000  tag=MEM   n= 5  cond=0  mem=1  call=0
+[ 221]  0x00007ff6d00124d8  obf_location_070                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 222]  0x00007ff6d0011808  obf_location_025                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 223]  0x00007ff6d001180f  obf_location_026                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 224]  0x00007ff6d001146b  obf_location_013                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 225]  0x00007ff6d00112ba  rl_location_006                 RCX=0x0000  tag=MEM   n= 5  cond=0  mem=1  call=0
+[ 226]  0x00007ff6d00120f1  obf_location_052                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 227]  0x00007ff6d001251e  obf_location_071                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 228]  0x00007ff6d0012525  obf_location_072                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 229]  0x00007ff6d00115ef  obf_location_022                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 230]  0x00007ff6d00114c6  rl_location_007                 RCX=0x0000  tag=MEM   n= 6  cond=0  mem=1  call=0
+[ 231]  0x00007ff6d0011cbc  obf_location_039                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 232]  0x00007ff6d0011d9c  obf_location_044                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 233]  0x00007ff6d0012295  obf_location_067                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 234]  0x00007ff6d0011de9  rl_location_008                 RCX=0x0000  tag=MEM   n= 3  cond=0  mem=1  call=0
+[ 235]  0x00007ff6d0011aa1  obf_location_029                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 236]  0x00007ff6d0011b88  obf_location_034                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 237]  0x00007ff6d0011ae7  obf_location_030                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 238]  0x00007ff6d00114b1  obf_location_014                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 239]  0x00007ff6d0011404  obf_location_010                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 240]  0x00007ff6d00128f0  obf_location_082                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 241]  0x00007ff6d001264b  obf_location_076                RCX=0x0000  tag=TRIV  n= 3  cond=0  mem=0  call=0
+[ 242]  0x00007ff6d00111c3  obf_location_005                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 243]  0x00007ff6d0012248  obf_location_065                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 244]  0x00007ff6d0011260  obf_location_008                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 245]  0x00007ff6d0011464  obf_location_012                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 246]  0x00007ff6d0011334  obf_location_009                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 247]  0x00007ff6d001211b  obf_location_058                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 248]  0x00007ff6d0012026  obf_location_047                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 249]  0x00007ff6d00117fe  obf_location_024                RCX=0x0000  tag=TRIV  n= 3  cond=0  mem=0  call=0
+[ 250]  0x00007ff6d0011d95  obf_location_043                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 251]  0x00007ff6d0012724  obf_location_079                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 252]  0x00007ff6d0012605  obf_location_075                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 253]  0x00007ff6d001271d  obf_location_078                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 254]  0x00007ff6d00120ff  obf_location_054                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 255]  0x00007ff6d0012ac2  obf_location_089                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 256]  0x00007ff6d0012137  obf_location_062                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 257]  0x00007ff6d0011267  rl_location_002                 RCX=0x0000  tag=MEM   n= 4  cond=0  mem=1  call=0
+[ 258]  0x00007ff6d00124b0  rl_location_003                 RCX=0x0000  tag=MEM   n= 6  cond=0  mem=2  call=0
+[ 259]  0x00007ff6d001213e  obf_location_063                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 260]  0x00007ff6d0012145  obf_location_064                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 261]  0x00007ff6d0012106  obf_location_055                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 262]  0x00007ff6d0012114  obf_location_057                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 263]  0x00007ff6d00117dc  rl_location_004                 RCX=0x0000  tag=MEM   n= 6  cond=0  mem=3  call=0
+[ 264]  0x00007ff6d0012a01  obf_location_085                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 265]  0x00007ff6d001155c  obf_location_019                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 266]  0x00007ff6d0012c37  obf_location_092                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 267]  0x00007ff6d0012a94  obf_location_088                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 268]  0x00007ff6d00114db  obf_location_017                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 269]  0x00007ff6d0011b7a  obf_location_032                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 270]  0x00007ff6d001206c  obf_location_048                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 271]  0x00007ff6d00112d0  rl_location_005                 RCX=0x0000  tag=MEM   n= 5  cond=0  mem=1  call=0
+[ 272]  0x00007ff6d00124d8  obf_location_070                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 273]  0x00007ff6d0011808  obf_location_025                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 274]  0x00007ff6d001180f  obf_location_026                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 275]  0x00007ff6d001146b  obf_location_013                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 276]  0x00007ff6d00112ba  rl_location_006                 RCX=0x0000  tag=MEM   n= 5  cond=0  mem=1  call=0
+[ 277]  0x00007ff6d00120f1  obf_location_052                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 278]  0x00007ff6d001251e  obf_location_071                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 279]  0x00007ff6d0012525  obf_location_072                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 280]  0x00007ff6d00115ef  obf_location_022                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 281]  0x00007ff6d00114c6  rl_location_007                 RCX=0x0000  tag=MEM   n= 6  cond=0  mem=1  call=0
+[ 282]  0x00007ff6d0011cbc  obf_location_039                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 283]  0x00007ff6d0011d9c  obf_location_044                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 284]  0x00007ff6d0012295  obf_location_067                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 285]  0x00007ff6d0011de9  rl_location_008                 RCX=0x0000  tag=MEM   n= 3  cond=0  mem=1  call=0
+[ 286]  0x00007ff6d0011aa1  obf_location_029                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 287]  0x00007ff6d0011b88  obf_location_034                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 288]  0x00007ff6d0011ae7  obf_location_030                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 289]  0x00007ff6d00114b1  obf_location_014                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 290]  0x00007ff6d0011404  obf_location_010                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 291]  0x00007ff6d00128f0  obf_location_082                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 292]  0x00007ff6d001264b  obf_location_076                RCX=0x0000  tag=TRIV  n= 3  cond=0  mem=0  call=0
+[ 293]  0x00007ff6d00111c3  obf_location_005                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 294]  0x00007ff6d0012248  obf_location_065                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 295]  0x00007ff6d0011260  obf_location_008                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 296]  0x00007ff6d0011464  obf_location_012                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 297]  0x00007ff6d0011334  obf_location_009                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 298]  0x00007ff6d001211b  obf_location_058                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 299]  0x00007ff6d0012026  obf_location_047                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 300]  0x00007ff6d00117fe  obf_location_024                RCX=0x0000  tag=TRIV  n= 3  cond=0  mem=0  call=0
+[ 301]  0x00007ff6d0011d95  obf_location_043                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 302]  0x00007ff6d0012724  obf_location_079                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 303]  0x00007ff6d0012605  obf_location_075                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 304]  0x00007ff6d001271d  obf_location_078                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 305]  0x00007ff6d00120ff  obf_location_054                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 306]  0x00007ff6d0012ac2  obf_location_089                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 307]  0x00007ff6d0012137  obf_location_062                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 308]  0x00007ff6d0011267  rl_location_002                 RCX=0x0000  tag=MEM   n= 4  cond=0  mem=1  call=0
+[ 309]  0x00007ff6d00124b0  rl_location_003                 RCX=0x0000  tag=MEM   n= 6  cond=0  mem=2  call=0
+[ 310]  0x00007ff6d001213e  obf_location_063                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 311]  0x00007ff6d0012145  obf_location_064                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 312]  0x00007ff6d0012106  obf_location_055                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 313]  0x00007ff6d0012114  obf_location_057                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 314]  0x00007ff6d00117dc  rl_location_004                 RCX=0x0000  tag=MEM   n= 6  cond=0  mem=3  call=0
+[ 315]  0x00007ff6d0012a01  obf_location_085                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 316]  0x00007ff6d001155c  obf_location_019                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 317]  0x00007ff6d0012c37  obf_location_092                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 318]  0x00007ff6d0012a94  obf_location_088                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 319]  0x00007ff6d00114db  obf_location_017                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 320]  0x00007ff6d0011b7a  obf_location_032                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 321]  0x00007ff6d001206c  obf_location_048                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 322]  0x00007ff6d00112d0  rl_location_005                 RCX=0x0000  tag=MEM   n= 5  cond=0  mem=1  call=0
+[ 323]  0x00007ff6d00124d8  obf_location_070                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 324]  0x00007ff6d0011808  obf_location_025                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 325]  0x00007ff6d001180f  obf_location_026                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 326]  0x00007ff6d001146b  obf_location_013                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 327]  0x00007ff6d00112ba  rl_location_006                 RCX=0x0000  tag=MEM   n= 5  cond=0  mem=1  call=0
+[ 328]  0x00007ff6d00120f1  obf_location_052                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 329]  0x00007ff6d001251e  obf_location_071                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 330]  0x00007ff6d0012525  obf_location_072                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 331]  0x00007ff6d00115ef  obf_location_022                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 332]  0x00007ff6d00114c6  rl_location_007                 RCX=0x0000  tag=MEM   n= 6  cond=0  mem=1  call=0
+[ 333]  0x00007ff6d0011cbc  obf_location_039                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 334]  0x00007ff6d0011d9c  obf_location_044                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 335]  0x00007ff6d0012295  obf_location_067                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 336]  0x00007ff6d0011de9  rl_location_008                 RCX=0x0000  tag=MEM   n= 3  cond=0  mem=1  call=0
+[ 337]  0x00007ff6d0011aa1  obf_location_029                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 338]  0x00007ff6d0011b88  obf_location_034                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 339]  0x00007ff6d0011ae7  obf_location_030                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 340]  0x00007ff6d00114b1  obf_location_014                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 341]  0x00007ff6d0011404  obf_location_010                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 342]  0x00007ff6d00128f0  obf_location_082                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 343]  0x00007ff6d001264b  obf_location_076                RCX=0x0000  tag=TRIV  n= 3  cond=0  mem=0  call=0
+[ 344]  0x00007ff6d00111c3  obf_location_005                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 345]  0x00007ff6d0012248  obf_location_065                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 346]  0x00007ff6d0011260  obf_location_008                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 347]  0x00007ff6d0011464  obf_location_012                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 348]  0x00007ff6d0011334  obf_location_009                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 349]  0x00007ff6d001211b  obf_location_058                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 350]  0x00007ff6d0012026  obf_location_047                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 351]  0x00007ff6d00117fe  obf_location_024                RCX=0x0000  tag=TRIV  n= 3  cond=0  mem=0  call=0
+[ 352]  0x00007ff6d0011d95  obf_location_043                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 353]  0x00007ff6d0012724  obf_location_079                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 354]  0x00007ff6d0012605  obf_location_075                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 355]  0x00007ff6d001271d  obf_location_078                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 356]  0x00007ff6d00120ff  obf_location_054                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 357]  0x00007ff6d0012ac2  obf_location_089                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 358]  0x00007ff6d0012137  obf_location_062                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 359]  0x00007ff6d0011267  rl_location_002                 RCX=0x0000  tag=MEM   n= 4  cond=0  mem=1  call=0
+[ 360]  0x00007ff6d00124b0  rl_location_003                 RCX=0x0000  tag=MEM   n= 6  cond=0  mem=2  call=0
+[ 361]  0x00007ff6d001213e  obf_location_063                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 362]  0x00007ff6d0012145  obf_location_064                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 363]  0x00007ff6d0012106  obf_location_055                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 364]  0x00007ff6d0012114  obf_location_057                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 365]  0x00007ff6d00117dc  rl_location_004                 RCX=0x0000  tag=MEM   n= 6  cond=0  mem=3  call=0
+[ 366]  0x00007ff6d0012a01  obf_location_085                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 367]  0x00007ff6d001155c  obf_location_019                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 368]  0x00007ff6d0012c37  obf_location_092                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 369]  0x00007ff6d0012a94  obf_location_088                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 370]  0x00007ff6d00114db  obf_location_017                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 371]  0x00007ff6d0011b7a  obf_location_032                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 372]  0x00007ff6d001206c  obf_location_048                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 373]  0x00007ff6d00112d0  rl_location_005                 RCX=0x0000  tag=MEM   n= 5  cond=0  mem=1  call=0
+[ 374]  0x00007ff6d00124d8  obf_location_070                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 375]  0x00007ff6d0011808  obf_location_025                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 376]  0x00007ff6d001180f  obf_location_026                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 377]  0x00007ff6d001146b  obf_location_013                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 378]  0x00007ff6d00112ba  rl_location_006                 RCX=0x0000  tag=MEM   n= 5  cond=0  mem=1  call=0
+[ 379]  0x00007ff6d00120f1  obf_location_052                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 380]  0x00007ff6d001251e  obf_location_071                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 381]  0x00007ff6d0012525  obf_location_072                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 382]  0x00007ff6d00115ef  obf_location_022                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 383]  0x00007ff6d00114c6  rl_location_007                 RCX=0x0000  tag=MEM   n= 6  cond=0  mem=1  call=0
+[ 384]  0x00007ff6d0011cbc  obf_location_039                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 385]  0x00007ff6d0011d9c  obf_location_044                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 386]  0x00007ff6d0012295  obf_location_067                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 387]  0x00007ff6d0011de9  rl_location_008                 RCX=0x0000  tag=MEM   n= 3  cond=0  mem=1  call=0
+[ 388]  0x00007ff6d0011aa1  obf_location_029                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 389]  0x00007ff6d0011b88  obf_location_034                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 390]  0x00007ff6d0011ae7  obf_location_030                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 391]  0x00007ff6d00114b1  obf_location_014                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 392]  0x00007ff6d0011404  obf_location_010                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 393]  0x00007ff6d00128f0  obf_location_082                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 394]  0x00007ff6d001264b  obf_location_076                RCX=0x0000  tag=TRIV  n= 3  cond=0  mem=0  call=0
+[ 395]  0x00007ff6d00111c3  obf_location_005                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 396]  0x00007ff6d0012248  obf_location_065                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 397]  0x00007ff6d0011260  obf_location_008                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 398]  0x00007ff6d0011464  obf_location_012                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 399]  0x00007ff6d0011334  obf_location_009                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 400]  0x00007ff6d001211b  obf_location_058                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 401]  0x00007ff6d0012026  obf_location_047                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 402]  0x00007ff6d00117fe  obf_location_024                RCX=0x0000  tag=TRIV  n= 3  cond=0  mem=0  call=0
+[ 403]  0x00007ff6d0011d95  obf_location_043                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 404]  0x00007ff6d0012724  obf_location_079                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 405]  0x00007ff6d0012605  obf_location_075                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 406]  0x00007ff6d001271d  obf_location_078                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 407]  0x00007ff6d00120ff  obf_location_054                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 408]  0x00007ff6d0012ac2  obf_location_089                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 409]  0x00007ff6d0012137  obf_location_062                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 410]  0x00007ff6d0011267  rl_location_002                 RCX=0x0000  tag=MEM   n= 4  cond=0  mem=1  call=0
+[ 411]  0x00007ff6d00124b0  rl_location_003                 RCX=0x0000  tag=MEM   n= 6  cond=0  mem=2  call=0
+[ 412]  0x00007ff6d001213e  obf_location_063                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 413]  0x00007ff6d0012145  obf_location_064                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 414]  0x00007ff6d0012106  obf_location_055                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 415]  0x00007ff6d0012114  obf_location_057                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 416]  0x00007ff6d00117dc  rl_location_004                 RCX=0x0000  tag=MEM   n= 6  cond=0  mem=3  call=0
+[ 417]  0x00007ff6d0012a01  obf_location_085                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 418]  0x00007ff6d001155c  obf_location_019                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 419]  0x00007ff6d0012c37  obf_location_092                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 420]  0x00007ff6d0012a94  obf_location_088                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 421]  0x00007ff6d00114db  obf_location_017                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 422]  0x00007ff6d0011b7a  obf_location_032                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 423]  0x00007ff6d001206c  obf_location_048                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 424]  0x00007ff6d00112d0  rl_location_005                 RCX=0x0000  tag=MEM   n= 5  cond=0  mem=1  call=0
+[ 425]  0x00007ff6d00124d8  obf_location_070                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 426]  0x00007ff6d0011808  obf_location_025                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 427]  0x00007ff6d001180f  obf_location_026                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 428]  0x00007ff6d001146b  obf_location_013                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 429]  0x00007ff6d00112ba  rl_location_006                 RCX=0x0000  tag=MEM   n= 5  cond=0  mem=1  call=0
+[ 430]  0x00007ff6d00120f1  obf_location_052                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 431]  0x00007ff6d001251e  obf_location_071                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 432]  0x00007ff6d0012525  obf_location_072                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 433]  0x00007ff6d00115ef  obf_location_022                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 434]  0x00007ff6d00114c6  rl_location_007                 RCX=0x0000  tag=MEM   n= 6  cond=0  mem=1  call=0
+[ 435]  0x00007ff6d0011cbc  obf_location_039                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 436]  0x00007ff6d0011d9c  obf_location_044                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 437]  0x00007ff6d0012295  obf_location_067                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 438]  0x00007ff6d0011de9  rl_location_008                 RCX=0x0000  tag=MEM   n= 3  cond=0  mem=1  call=0
+[ 439]  0x00007ff6d0011aa1  obf_location_029                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 440]  0x00007ff6d0011b88  obf_location_034                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 441]  0x00007ff6d0011ae7  obf_location_030                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 442]  0x00007ff6d00114b1  obf_location_014                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 443]  0x00007ff6d0011404  obf_location_010                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 444]  0x00007ff6d00128f0  obf_location_082                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 445]  0x00007ff6d001264b  obf_location_076                RCX=0x0000  tag=TRIV  n= 3  cond=0  mem=0  call=0
+[ 446]  0x00007ff6d00111c3  obf_location_005                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 447]  0x00007ff6d0012248  obf_location_065                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 448]  0x00007ff6d0011260  obf_location_008                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 449]  0x00007ff6d0011464  obf_location_012                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 450]  0x00007ff6d0011334  obf_location_009                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 451]  0x00007ff6d001211b  obf_location_058                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 452]  0x00007ff6d0012026  obf_location_047                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 453]  0x00007ff6d00117fe  obf_location_024                RCX=0x0000  tag=TRIV  n= 3  cond=0  mem=0  call=0
+[ 454]  0x00007ff6d0011d95  obf_location_043                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 455]  0x00007ff6d0012724  obf_location_079                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 456]  0x00007ff6d0012605  obf_location_075                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 457]  0x00007ff6d001271d  obf_location_078                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 458]  0x00007ff6d00120ff  obf_location_054                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 459]  0x00007ff6d0012ac2  obf_location_089                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 460]  0x00007ff6d0012137  obf_location_062                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 461]  0x00007ff6d0011267  rl_location_002                 RCX=0x0000  tag=MEM   n= 4  cond=0  mem=1  call=0
+[ 462]  0x00007ff6d00124b0  rl_location_003                 RCX=0x0000  tag=MEM   n= 6  cond=0  mem=2  call=0
+[ 463]  0x00007ff6d001213e  obf_location_063                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 464]  0x00007ff6d0012145  obf_location_064                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 465]  0x00007ff6d0012106  obf_location_055                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 466]  0x00007ff6d0012114  obf_location_057                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 467]  0x00007ff6d00117dc  rl_location_004                 RCX=0x0000  tag=MEM   n= 6  cond=0  mem=3  call=0
+[ 468]  0x00007ff6d0012a01  obf_location_085                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 469]  0x00007ff6d001155c  obf_location_019                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 470]  0x00007ff6d0012c37  obf_location_092                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 471]  0x00007ff6d0012a94  obf_location_088                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 472]  0x00007ff6d00114db  obf_location_017                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 473]  0x00007ff6d0011b7a  obf_location_032                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 474]  0x00007ff6d001206c  obf_location_048                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 475]  0x00007ff6d00112d0  rl_location_005                 RCX=0x0000  tag=MEM   n= 5  cond=0  mem=1  call=0
+[ 476]  0x00007ff6d00124d8  obf_location_070                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 477]  0x00007ff6d0011808  obf_location_025                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 478]  0x00007ff6d001180f  obf_location_026                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 479]  0x00007ff6d001146b  obf_location_013                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 480]  0x00007ff6d00112ba  rl_location_006                 RCX=0x0000  tag=MEM   n= 5  cond=0  mem=1  call=0
+[ 481]  0x00007ff6d00120f1  obf_location_052                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 482]  0x00007ff6d001251e  obf_location_071                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 483]  0x00007ff6d0012525  obf_location_072                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 484]  0x00007ff6d00115ef  obf_location_022                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 485]  0x00007ff6d00114c6  rl_location_007                 RCX=0x0000  tag=MEM   n= 6  cond=0  mem=1  call=0
+[ 486]  0x00007ff6d0011cbc  obf_location_039                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 487]  0x00007ff6d0011d9c  obf_location_044                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 488]  0x00007ff6d0012295  obf_location_067                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 489]  0x00007ff6d0011de9  rl_location_008                 RCX=0x0000  tag=MEM   n= 3  cond=0  mem=1  call=0
+[ 490]  0x00007ff6d0011aa1  obf_location_029                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 491]  0x00007ff6d0011b88  obf_location_034                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 492]  0x00007ff6d0011ae7  obf_location_030                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 493]  0x00007ff6d00114b1  obf_location_014                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 494]  0x00007ff6d0011404  obf_location_010                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 495]  0x00007ff6d00128f0  obf_location_082                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 496]  0x00007ff6d001264b  obf_location_076                RCX=0x0000  tag=TRIV  n= 3  cond=0  mem=0  call=0
+[ 497]  0x00007ff6d00111c3  obf_location_005                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 498]  0x00007ff6d0012248  obf_location_065                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 499]  0x00007ff6d0011260  obf_location_008                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 500]  0x00007ff6d0011464  obf_location_012                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 501]  0x00007ff6d0011334  obf_location_009                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 502]  0x00007ff6d001211b  obf_location_058                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 503]  0x00007ff6d0012026  obf_location_047                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 504]  0x00007ff6d00117fe  obf_location_024                RCX=0x0000  tag=TRIV  n= 3  cond=0  mem=0  call=0
+[ 505]  0x00007ff6d0011d95  obf_location_043                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 506]  0x00007ff6d0012724  obf_location_079                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 507]  0x00007ff6d0012605  obf_location_075                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 508]  0x00007ff6d001271d  obf_location_078                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 509]  0x00007ff6d00120ff  obf_location_054                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 510]  0x00007ff6d0012ac2  obf_location_089                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 511]  0x00007ff6d0012137  obf_location_062                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 512]  0x00007ff6d0011267  rl_location_002                 RCX=0x0000  tag=MEM   n= 4  cond=0  mem=1  call=0
+[ 513]  0x00007ff6d00124b0  rl_location_003                 RCX=0x0000  tag=MEM   n= 6  cond=0  mem=2  call=0
+[ 514]  0x00007ff6d001213e  obf_location_063                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 515]  0x00007ff6d0012145  obf_location_064                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 516]  0x00007ff6d0012106  obf_location_055                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 517]  0x00007ff6d0012114  obf_location_057                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 518]  0x00007ff6d00117dc  rl_location_004                 RCX=0x0000  tag=MEM   n= 6  cond=0  mem=3  call=0
+[ 519]  0x00007ff6d0012a01  obf_location_085                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 520]  0x00007ff6d001155c  obf_location_019                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 521]  0x00007ff6d0012c37  obf_location_092                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 522]  0x00007ff6d0012a94  obf_location_088                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 523]  0x00007ff6d00114db  obf_location_017                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 524]  0x00007ff6d0011b7a  obf_location_032                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 525]  0x00007ff6d001206c  obf_location_048                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 526]  0x00007ff6d00112d0  rl_location_005                 RCX=0x0000  tag=MEM   n= 5  cond=0  mem=1  call=0
+[ 527]  0x00007ff6d00124d8  obf_location_070                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 528]  0x00007ff6d0011808  obf_location_025                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 529]  0x00007ff6d001180f  obf_location_026                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 530]  0x00007ff6d001146b  obf_location_013                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 531]  0x00007ff6d00112ba  rl_location_006                 RCX=0x0000  tag=MEM   n= 5  cond=0  mem=1  call=0
+[ 532]  0x00007ff6d00120f1  obf_location_052                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 533]  0x00007ff6d001251e  obf_location_071                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 534]  0x00007ff6d0012525  obf_location_072                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 535]  0x00007ff6d00115ef  obf_location_022                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 536]  0x00007ff6d00114c6  rl_location_007                 RCX=0x0000  tag=MEM   n= 6  cond=0  mem=1  call=0
+[ 537]  0x00007ff6d0011cbc  obf_location_039                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 538]  0x00007ff6d0011d9c  obf_location_044                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 539]  0x00007ff6d0012295  obf_location_067                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 540]  0x00007ff6d0011de9  rl_location_008                 RCX=0x0000  tag=MEM   n= 3  cond=0  mem=1  call=0
+[ 541]  0x00007ff6d0011aa1  obf_location_029                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 542]  0x00007ff6d0011b88  obf_location_034                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 543]  0x00007ff6d0011ae7  obf_location_030                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 544]  0x00007ff6d00114b1  obf_location_014                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 545]  0x00007ff6d0011404  obf_location_010                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 546]  0x00007ff6d00128f0  obf_location_082                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 547]  0x00007ff6d001264b  obf_location_076                RCX=0x0000  tag=TRIV  n= 3  cond=0  mem=0  call=0
+[ 548]  0x00007ff6d00111c3  obf_location_005                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 549]  0x00007ff6d0012248  obf_location_065                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 550]  0x00007ff6d0011260  obf_location_008                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 551]  0x00007ff6d0011464  obf_location_012                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 552]  0x00007ff6d0011334  obf_location_009                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 553]  0x00007ff6d001211b  obf_location_058                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 554]  0x00007ff6d0012026  obf_location_047                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 555]  0x00007ff6d00117fe  obf_location_024                RCX=0x0000  tag=TRIV  n= 3  cond=0  mem=0  call=0
+[ 556]  0x00007ff6d0011d95  obf_location_043                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 557]  0x00007ff6d0012724  obf_location_079                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 558]  0x00007ff6d0012605  obf_location_075                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 559]  0x00007ff6d001271d  obf_location_078                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 560]  0x00007ff6d00120ff  obf_location_054                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 561]  0x00007ff6d0012ac2  obf_location_089                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 562]  0x00007ff6d0012137  obf_location_062                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 563]  0x00007ff6d0011267  rl_location_002                 RCX=0x0000  tag=MEM   n= 4  cond=0  mem=1  call=0
+[ 564]  0x00007ff6d00124b0  rl_location_003                 RCX=0x0000  tag=MEM   n= 6  cond=0  mem=2  call=0
+[ 565]  0x00007ff6d001213e  obf_location_063                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 566]  0x00007ff6d0012145  obf_location_064                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 567]  0x00007ff6d0012106  obf_location_055                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 568]  0x00007ff6d0012114  obf_location_057                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 569]  0x00007ff6d00117dc  rl_location_004                 RCX=0x0000  tag=MEM   n= 6  cond=0  mem=3  call=0
+[ 570]  0x00007ff6d0012a01  obf_location_085                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 571]  0x00007ff6d001155c  obf_location_019                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 572]  0x00007ff6d0012c37  obf_location_092                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 573]  0x00007ff6d0012a94  obf_location_088                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 574]  0x00007ff6d00114db  obf_location_017                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 575]  0x00007ff6d0011b7a  obf_location_032                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 576]  0x00007ff6d001206c  obf_location_048                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 577]  0x00007ff6d00112d0  rl_location_005                 RCX=0x0000  tag=MEM   n= 5  cond=0  mem=1  call=0
+[ 578]  0x00007ff6d00124d8  obf_location_070                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 579]  0x00007ff6d0011808  obf_location_025                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 580]  0x00007ff6d001180f  obf_location_026                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 581]  0x00007ff6d001146b  obf_location_013                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 582]  0x00007ff6d00112ba  rl_location_006                 RCX=0x0000  tag=MEM   n= 5  cond=0  mem=1  call=0
+[ 583]  0x00007ff6d00120f1  obf_location_052                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 584]  0x00007ff6d001251e  obf_location_071                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 585]  0x00007ff6d0012525  obf_location_072                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 586]  0x00007ff6d00115ef  obf_location_022                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 587]  0x00007ff6d00114c6  rl_location_007                 RCX=0x0000  tag=MEM   n= 6  cond=0  mem=1  call=0
+[ 588]  0x00007ff6d0011cbc  obf_location_039                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 589]  0x00007ff6d0011d9c  obf_location_044                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 590]  0x00007ff6d0012295  obf_location_067                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 591]  0x00007ff6d0011de9  rl_location_008                 RCX=0x0000  tag=MEM   n= 3  cond=0  mem=1  call=0
+[ 592]  0x00007ff6d0011aa1  obf_location_029                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 593]  0x00007ff6d0011b88  obf_location_034                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 594]  0x00007ff6d0011ae7  obf_location_030                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 595]  0x00007ff6d00114b1  obf_location_014                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 596]  0x00007ff6d0011404  obf_location_010                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 597]  0x00007ff6d00128f0  obf_location_082                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 598]  0x00007ff6d001264b  obf_location_076                RCX=0x0000  tag=TRIV  n= 3  cond=0  mem=0  call=0
+[ 599]  0x00007ff6d00111c3  obf_location_005                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 600]  0x00007ff6d0012248  obf_location_065                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 601]  0x00007ff6d0011260  obf_location_008                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 602]  0x00007ff6d0011464  obf_location_012                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 603]  0x00007ff6d0011334  obf_location_009                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 604]  0x00007ff6d001211b  obf_location_058                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 605]  0x00007ff6d0012026  obf_location_047                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 606]  0x00007ff6d00117fe  obf_location_024                RCX=0x0000  tag=TRIV  n= 3  cond=0  mem=0  call=0
+[ 607]  0x00007ff6d0011d95  obf_location_043                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 608]  0x00007ff6d0012724  obf_location_079                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 609]  0x00007ff6d0012605  obf_location_075                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 610]  0x00007ff6d001271d  obf_location_078                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 611]  0x00007ff6d00120ff  obf_location_054                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 612]  0x00007ff6d0012ac2  obf_location_089                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 613]  0x00007ff6d0012137  obf_location_062                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 614]  0x00007ff6d0011267  rl_location_002                 RCX=0x0000  tag=MEM   n= 4  cond=0  mem=1  call=0
+[ 615]  0x00007ff6d00124b0  rl_location_003                 RCX=0x0000  tag=MEM   n= 6  cond=0  mem=2  call=0
+[ 616]  0x00007ff6d001213e  obf_location_063                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 617]  0x00007ff6d0012145  obf_location_064                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 618]  0x00007ff6d0012106  obf_location_055                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 619]  0x00007ff6d0012114  obf_location_057                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 620]  0x00007ff6d00117dc  rl_location_004                 RCX=0x0000  tag=MEM   n= 6  cond=0  mem=3  call=0
+[ 621]  0x00007ff6d0012a01  obf_location_085                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 622]  0x00007ff6d001155c  obf_location_019                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 623]  0x00007ff6d0012c37  obf_location_092                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 624]  0x00007ff6d0012a94  obf_location_088                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 625]  0x00007ff6d00114db  obf_location_017                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 626]  0x00007ff6d0011b7a  obf_location_032                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 627]  0x00007ff6d001206c  obf_location_048                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 628]  0x00007ff6d00112d0  rl_location_005                 RCX=0x0000  tag=MEM   n= 5  cond=0  mem=1  call=0
+[ 629]  0x00007ff6d00124d8  obf_location_070                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 630]  0x00007ff6d0011808  obf_location_025                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 631]  0x00007ff6d001180f  obf_location_026                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 632]  0x00007ff6d001146b  obf_location_013                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 633]  0x00007ff6d00112ba  rl_location_006                 RCX=0x0000  tag=MEM   n= 5  cond=0  mem=1  call=0
+[ 634]  0x00007ff6d00120f1  obf_location_052                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 635]  0x00007ff6d001251e  obf_location_071                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 636]  0x00007ff6d0012525  obf_location_072                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 637]  0x00007ff6d00115ef  obf_location_022                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 638]  0x00007ff6d00114c6  rl_location_007                 RCX=0x0000  tag=MEM   n= 6  cond=0  mem=1  call=0
+[ 639]  0x00007ff6d0011cbc  obf_location_039                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 640]  0x00007ff6d0011d9c  obf_location_044                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 641]  0x00007ff6d0012295  obf_location_067                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 642]  0x00007ff6d0011de9  rl_location_008                 RCX=0x0000  tag=MEM   n= 3  cond=0  mem=1  call=0
+[ 643]  0x00007ff6d0011aa1  obf_location_029                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 644]  0x00007ff6d0011b88  obf_location_034                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 645]  0x00007ff6d0011ae7  obf_location_030                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 646]  0x00007ff6d00114b1  obf_location_014                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 647]  0x00007ff6d0011404  obf_location_010                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 648]  0x00007ff6d00128f0  obf_location_082                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 649]  0x00007ff6d001264b  obf_location_076                RCX=0x0000  tag=TRIV  n= 3  cond=0  mem=0  call=0
+[ 650]  0x00007ff6d00111c3  obf_location_005                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 651]  0x00007ff6d0012248  obf_location_065                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 652]  0x00007ff6d0011260  obf_location_008                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 653]  0x00007ff6d0011464  obf_location_012                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 654]  0x00007ff6d0011334  obf_location_009                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 655]  0x00007ff6d001211b  obf_location_058                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 656]  0x00007ff6d0012026  obf_location_047                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 657]  0x00007ff6d00117fe  obf_location_024                RCX=0x0000  tag=TRIV  n= 3  cond=0  mem=0  call=0
+[ 658]  0x00007ff6d0011d95  obf_location_043                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 659]  0x00007ff6d0012724  obf_location_079                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 660]  0x00007ff6d0012605  obf_location_075                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 661]  0x00007ff6d001271d  obf_location_078                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 662]  0x00007ff6d00120ff  obf_location_054                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 663]  0x00007ff6d0012ac2  obf_location_089                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 664]  0x00007ff6d0012137  obf_location_062                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 665]  0x00007ff6d0011267  rl_location_002                 RCX=0x0000  tag=MEM   n= 4  cond=0  mem=1  call=0
+[ 666]  0x00007ff6d00124b0  rl_location_003                 RCX=0x0000  tag=MEM   n= 6  cond=0  mem=2  call=0
+[ 667]  0x00007ff6d001213e  obf_location_063                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 668]  0x00007ff6d0012145  obf_location_064                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 669]  0x00007ff6d0012106  obf_location_055                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 670]  0x00007ff6d0012114  obf_location_057                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 671]  0x00007ff6d00117dc  rl_location_004                 RCX=0x0000  tag=MEM   n= 6  cond=0  mem=3  call=0
+[ 672]  0x00007ff6d0012a01  obf_location_085                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 673]  0x00007ff6d001155c  obf_location_019                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 674]  0x00007ff6d0012c37  obf_location_092                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 675]  0x00007ff6d0012a94  obf_location_088                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 676]  0x00007ff6d00114db  obf_location_017                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 677]  0x00007ff6d0011b7a  obf_location_032                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 678]  0x00007ff6d001206c  obf_location_048                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 679]  0x00007ff6d00112d0  rl_location_005                 RCX=0x0000  tag=MEM   n= 5  cond=0  mem=1  call=0
+[ 680]  0x00007ff6d00124d8  obf_location_070                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 681]  0x00007ff6d0011808  obf_location_025                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 682]  0x00007ff6d001180f  obf_location_026                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 683]  0x00007ff6d001146b  obf_location_013                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 684]  0x00007ff6d00112ba  rl_location_006                 RCX=0x0000  tag=MEM   n= 5  cond=0  mem=1  call=0
+[ 685]  0x00007ff6d00120f1  obf_location_052                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 686]  0x00007ff6d001251e  obf_location_071                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 687]  0x00007ff6d0012525  obf_location_072                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 688]  0x00007ff6d00115ef  obf_location_022                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 689]  0x00007ff6d00114c6  rl_location_007                 RCX=0x0000  tag=MEM   n= 6  cond=0  mem=1  call=0
+[ 690]  0x00007ff6d0011cbc  obf_location_039                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 691]  0x00007ff6d0011d9c  obf_location_044                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 692]  0x00007ff6d0012295  obf_location_067                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 693]  0x00007ff6d0011de9  rl_location_008                 RCX=0x0000  tag=MEM   n= 3  cond=0  mem=1  call=0
+[ 694]  0x00007ff6d0011aa1  obf_location_029                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 695]  0x00007ff6d0011b88  obf_location_034                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 696]  0x00007ff6d0011ae7  obf_location_030                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 697]  0x00007ff6d00114b1  obf_location_014                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 698]  0x00007ff6d0011404  obf_location_010                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 699]  0x00007ff6d00128f0  obf_location_082                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 700]  0x00007ff6d001264b  obf_location_076                RCX=0x0000  tag=TRIV  n= 3  cond=0  mem=0  call=0
+[ 701]  0x00007ff6d00111c3  obf_location_005                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 702]  0x00007ff6d0012248  obf_location_065                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 703]  0x00007ff6d0011260  obf_location_008                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 704]  0x00007ff6d0011464  obf_location_012                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 705]  0x00007ff6d0011334  obf_location_009                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 706]  0x00007ff6d001211b  obf_location_058                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 707]  0x00007ff6d0012026  obf_location_047                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 708]  0x00007ff6d00117fe  obf_location_024                RCX=0x0000  tag=TRIV  n= 3  cond=0  mem=0  call=0
+[ 709]  0x00007ff6d0011d95  obf_location_043                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 710]  0x00007ff6d0012724  obf_location_079                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 711]  0x00007ff6d0012605  obf_location_075                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 712]  0x00007ff6d001271d  obf_location_078                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 713]  0x00007ff6d00120ff  obf_location_054                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 714]  0x00007ff6d0012ac2  obf_location_089                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 715]  0x00007ff6d0012137  obf_location_062                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 716]  0x00007ff6d0011267  rl_location_002                 RCX=0x0000  tag=MEM   n= 4  cond=0  mem=1  call=0
+[ 717]  0x00007ff6d00124b0  rl_location_003                 RCX=0x0000  tag=MEM   n= 6  cond=0  mem=2  call=0
+[ 718]  0x00007ff6d001213e  obf_location_063                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 719]  0x00007ff6d0012145  obf_location_064                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 720]  0x00007ff6d0012106  obf_location_055                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 721]  0x00007ff6d0012114  obf_location_057                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 722]  0x00007ff6d00117dc  rl_location_004                 RCX=0x0000  tag=MEM   n= 6  cond=0  mem=3  call=0
+[ 723]  0x00007ff6d0012a01  obf_location_085                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 724]  0x00007ff6d001155c  obf_location_019                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 725]  0x00007ff6d0012c37  obf_location_092                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 726]  0x00007ff6d0012a94  obf_location_088                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 727]  0x00007ff6d00114db  obf_location_017                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 728]  0x00007ff6d0011b7a  obf_location_032                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 729]  0x00007ff6d001206c  obf_location_048                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 730]  0x00007ff6d00112d0  rl_location_005                 RCX=0x0000  tag=MEM   n= 5  cond=0  mem=1  call=0
+[ 731]  0x00007ff6d00124d8  obf_location_070                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 732]  0x00007ff6d0011808  obf_location_025                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 733]  0x00007ff6d001180f  obf_location_026                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 734]  0x00007ff6d001146b  obf_location_013                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 735]  0x00007ff6d00112ba  rl_location_006                 RCX=0x0000  tag=MEM   n= 5  cond=0  mem=1  call=0
+[ 736]  0x00007ff6d00120f1  obf_location_052                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 737]  0x00007ff6d001251e  obf_location_071                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 738]  0x00007ff6d0012525  obf_location_072                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 739]  0x00007ff6d00115ef  obf_location_022                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 740]  0x00007ff6d00114c6  rl_location_007                 RCX=0x0000  tag=MEM   n= 6  cond=0  mem=1  call=0
+[ 741]  0x00007ff6d0011cbc  obf_location_039                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 742]  0x00007ff6d0011d9c  obf_location_044                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 743]  0x00007ff6d0012295  obf_location_067                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 744]  0x00007ff6d0011de9  rl_location_008                 RCX=0x0000  tag=MEM   n= 3  cond=0  mem=1  call=0
+[ 745]  0x00007ff6d0011aa1  obf_location_029                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 746]  0x00007ff6d0011b88  obf_location_034                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 747]  0x00007ff6d0011ae7  obf_location_030                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 748]  0x00007ff6d00114b1  obf_location_014                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 749]  0x00007ff6d0011404  obf_location_010                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 750]  0x00007ff6d00128f0  obf_location_082                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 751]  0x00007ff6d001264b  obf_location_076                RCX=0x0000  tag=TRIV  n= 3  cond=0  mem=0  call=0
+[ 752]  0x00007ff6d00111c3  obf_location_005                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 753]  0x00007ff6d0012248  obf_location_065                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 754]  0x00007ff6d0011260  obf_location_008                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 755]  0x00007ff6d0011464  obf_location_012                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 756]  0x00007ff6d0011334  obf_location_009                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 757]  0x00007ff6d001211b  obf_location_058                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 758]  0x00007ff6d0012026  obf_location_047                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 759]  0x00007ff6d00117fe  obf_location_024                RCX=0x0000  tag=TRIV  n= 3  cond=0  mem=0  call=0
+[ 760]  0x00007ff6d0011d95  obf_location_043                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 761]  0x00007ff6d0012724  obf_location_079                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 762]  0x00007ff6d0012605  obf_location_075                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 763]  0x00007ff6d001271d  obf_location_078                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 764]  0x00007ff6d00120ff  obf_location_054                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 765]  0x00007ff6d0012ac2  obf_location_089                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 766]  0x00007ff6d0012137  obf_location_062                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 767]  0x00007ff6d0011267  rl_location_002                 RCX=0x0000  tag=MEM   n= 4  cond=0  mem=1  call=0
+[ 768]  0x00007ff6d00124b0  rl_location_003                 RCX=0x0000  tag=MEM   n= 6  cond=0  mem=2  call=0
+[ 769]  0x00007ff6d001213e  obf_location_063                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 770]  0x00007ff6d0012145  obf_location_064                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 771]  0x00007ff6d0012106  obf_location_055                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 772]  0x00007ff6d0012114  obf_location_057                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 773]  0x00007ff6d00117dc  rl_location_004                 RCX=0x0000  tag=MEM   n= 6  cond=0  mem=3  call=0
+[ 774]  0x00007ff6d0012a01  obf_location_085                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 775]  0x00007ff6d001155c  obf_location_019                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 776]  0x00007ff6d0012c37  obf_location_092                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 777]  0x00007ff6d0012a94  obf_location_088                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 778]  0x00007ff6d00114db  obf_location_017                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 779]  0x00007ff6d0011b7a  obf_location_032                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 780]  0x00007ff6d001206c  obf_location_048                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 781]  0x00007ff6d00112d0  rl_location_005                 RCX=0x0000  tag=MEM   n= 5  cond=0  mem=1  call=0
+[ 782]  0x00007ff6d00124d8  obf_location_070                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 783]  0x00007ff6d0011808  obf_location_025                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 784]  0x00007ff6d001180f  obf_location_026                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 785]  0x00007ff6d001146b  obf_location_013                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 786]  0x00007ff6d00112ba  rl_location_006                 RCX=0x0000  tag=MEM   n= 5  cond=0  mem=1  call=0
+[ 787]  0x00007ff6d00120f1  obf_location_052                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 788]  0x00007ff6d001251e  obf_location_071                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 789]  0x00007ff6d0012525  obf_location_072                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 790]  0x00007ff6d00115ef  obf_location_022                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 791]  0x00007ff6d00114c6  rl_location_007                 RCX=0x0000  tag=MEM   n= 6  cond=0  mem=1  call=0
+[ 792]  0x00007ff6d0011cbc  obf_location_039                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 793]  0x00007ff6d0011d9c  obf_location_044                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 794]  0x00007ff6d0012295  obf_location_067                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 795]  0x00007ff6d0011de9  rl_location_008                 RCX=0x0000  tag=MEM   n= 3  cond=0  mem=1  call=0
+[ 796]  0x00007ff6d0011aa1  obf_location_029                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 797]  0x00007ff6d0011b88  obf_location_034                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 798]  0x00007ff6d0011ae7  obf_location_030                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 799]  0x00007ff6d00114b1  obf_location_014                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 800]  0x00007ff6d0011404  obf_location_010                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 801]  0x00007ff6d00128f0  obf_location_082                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 802]  0x00007ff6d001264b  obf_location_076                RCX=0x0000  tag=TRIV  n= 3  cond=0  mem=0  call=0
+[ 803]  0x00007ff6d00111c3  obf_location_005                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 804]  0x00007ff6d0012248  obf_location_065                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 805]  0x00007ff6d0011260  obf_location_008                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 806]  0x00007ff6d0011464  obf_location_012                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 807]  0x00007ff6d0011334  obf_location_009                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 808]  0x00007ff6d001211b  obf_location_058                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 809]  0x00007ff6d0012026  obf_location_047                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 810]  0x00007ff6d00117fe  obf_location_024                RCX=0x0000  tag=TRIV  n= 3  cond=0  mem=0  call=0
+[ 811]  0x00007ff6d0011d95  obf_location_043                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 812]  0x00007ff6d0012724  obf_location_079                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 813]  0x00007ff6d0012605  obf_location_075                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 814]  0x00007ff6d001271d  obf_location_078                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 815]  0x00007ff6d00120ff  obf_location_054                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 816]  0x00007ff6d0012ac2  obf_location_089                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 817]  0x00007ff6d0012137  obf_location_062                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 818]  0x00007ff6d0011267  rl_location_002                 RCX=0x0000  tag=MEM   n= 4  cond=0  mem=1  call=0
+[ 819]  0x00007ff6d001117e  base_location                   RCX=0x0000  tag=COND  n=12  cond=1  mem=1  call=0
+[ 820]  0x00007ff6d00115e1  obf_location_020                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 821]  0x00007ff6d00114b8  obf_location_015                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 822]  0x00007ff6d0011b81  obf_location_033                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 823]  0x00007ff6d0012130  obf_location_061                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 824]  0x00007ff6d001272b  obf_location_080                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 825]  0x00007ff6d00120d5  obf_location_051                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 826]  0x00007ff6d00114bf  obf_location_016                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 827]  0x00007ff6d00111ae  obf_location_003                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 828]  0x00007ff6d001140b  obf_location_011                RCX=0x0000  tag=TRIV  n= 4  cond=0  mem=0  call=0
+[ 829]  0x00007ff6d00128c6  rl_location_010                 RCX=0x0000  tag=MEM   n=10  cond=0  mem=2  call=0
+[ 830]  0x00007ff6d00114e2  obf_location_018                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 831]  0x00007ff6d001210d  obf_location_056                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 832]  0x00007ff6d0011990  obf_location_027                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 833]  0x00007ff6d0011c76  obf_location_038                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 834]  0x00007ff6d0012d3a  obf_location_093                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 835]  0x00007ff6d0011bb2  obf_location_037                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 836]  0x00007ff6d00111ca  obf_location_006                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 837]  0x00007ff6d00111ae  obf_location_003                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 838]  0x00007ff6d001140b  obf_location_011                RCX=0x0000  tag=TRIV  n= 4  cond=0  mem=0  call=0
+[ 839]  0x00007ff6d00128c6  rl_location_010                 RCX=0x0000  tag=MEM   n=10  cond=0  mem=2  call=0
+[ 840]  0x00007ff6d00114e2  obf_location_018                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 841]  0x00007ff6d001210d  obf_location_056                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 842]  0x00007ff6d0011990  obf_location_027                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 843]  0x00007ff6d0011c76  obf_location_038                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 844]  0x00007ff6d0012d3a  obf_location_093                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 845]  0x00007ff6d0011bb2  obf_location_037                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 846]  0x00007ff6d00111ca  obf_location_006                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 847]  0x00007ff6d00111ae  obf_location_003                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 848]  0x00007ff6d001140b  obf_location_011                RCX=0x0000  tag=TRIV  n= 4  cond=0  mem=0  call=0
+[ 849]  0x00007ff6d00128c6  rl_location_010                 RCX=0x0000  tag=MEM   n=10  cond=0  mem=2  call=0
+[ 850]  0x00007ff6d00114e2  obf_location_018                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 851]  0x00007ff6d001210d  obf_location_056                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 852]  0x00007ff6d0011990  obf_location_027                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 853]  0x00007ff6d0011c76  obf_location_038                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 854]  0x00007ff6d0012d3a  obf_location_093                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 855]  0x00007ff6d0011bb2  obf_location_037                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 856]  0x00007ff6d00111ca  obf_location_006                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 857]  0x00007ff6d00111ae  obf_location_003                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 858]  0x00007ff6d001140b  obf_location_011                RCX=0x0000  tag=TRIV  n= 4  cond=0  mem=0  call=0
+[ 859]  0x00007ff6d00128c6  rl_location_010                 RCX=0x0000  tag=MEM   n=10  cond=0  mem=2  call=0
+[ 860]  0x00007ff6d00114e2  obf_location_018                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 861]  0x00007ff6d001210d  obf_location_056                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 862]  0x00007ff6d0011990  obf_location_027                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 863]  0x00007ff6d0011c76  obf_location_038                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 864]  0x00007ff6d0012d3a  obf_location_093                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 865]  0x00007ff6d0011bb2  obf_location_037                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 866]  0x00007ff6d00111ca  obf_location_006                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 867]  0x00007ff6d00111ae  obf_location_003                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 868]  0x00007ff6d001140b  obf_location_011                RCX=0x0000  tag=TRIV  n= 4  cond=0  mem=0  call=0
+[ 869]  0x00007ff6d00128c6  rl_location_010                 RCX=0x0000  tag=MEM   n=10  cond=0  mem=2  call=0
+[ 870]  0x00007ff6d00114e2  obf_location_018                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 871]  0x00007ff6d001210d  obf_location_056                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 872]  0x00007ff6d0011990  obf_location_027                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 873]  0x00007ff6d0011c76  obf_location_038                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 874]  0x00007ff6d0012d3a  obf_location_093                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 875]  0x00007ff6d0011bb2  obf_location_037                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 876]  0x00007ff6d00111ca  obf_location_006                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 877]  0x00007ff6d00111ae  obf_location_003                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 878]  0x00007ff6d001140b  obf_location_011                RCX=0x0000  tag=TRIV  n= 4  cond=0  mem=0  call=0
+[ 879]  0x00007ff6d00128c6  rl_location_010                 RCX=0x0000  tag=MEM   n=10  cond=0  mem=2  call=0
+[ 880]  0x00007ff6d00114e2  obf_location_018                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 881]  0x00007ff6d001210d  obf_location_056                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 882]  0x00007ff6d0011990  obf_location_027                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 883]  0x00007ff6d0011c76  obf_location_038                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 884]  0x00007ff6d0012d3a  obf_location_093                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 885]  0x00007ff6d0011bb2  obf_location_037                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 886]  0x00007ff6d00111ca  obf_location_006                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 887]  0x00007ff6d00111ae  obf_location_003                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 888]  0x00007ff6d001140b  obf_location_011                RCX=0x0000  tag=TRIV  n= 4  cond=0  mem=0  call=0
+[ 889]  0x00007ff6d00128c6  rl_location_010                 RCX=0x0000  tag=MEM   n=10  cond=0  mem=2  call=0
+[ 890]  0x00007ff6d00114e2  obf_location_018                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 891]  0x00007ff6d001210d  obf_location_056                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 892]  0x00007ff6d0011990  obf_location_027                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 893]  0x00007ff6d0011c76  obf_location_038                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 894]  0x00007ff6d0012d3a  obf_location_093                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 895]  0x00007ff6d0011bb2  obf_location_037                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 896]  0x00007ff6d00111ca  obf_location_006                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 897]  0x00007ff6d00111ae  obf_location_003                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 898]  0x00007ff6d001140b  obf_location_011                RCX=0x0000  tag=TRIV  n= 4  cond=0  mem=0  call=0
+[ 899]  0x00007ff6d00128c6  rl_location_010                 RCX=0x0000  tag=MEM   n=10  cond=0  mem=2  call=0
+[ 900]  0x00007ff6d00114e2  obf_location_018                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 901]  0x00007ff6d001210d  obf_location_056                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 902]  0x00007ff6d0011990  obf_location_027                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 903]  0x00007ff6d0011c76  obf_location_038                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 904]  0x00007ff6d0012d3a  obf_location_093                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 905]  0x00007ff6d0011bb2  obf_location_037                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 906]  0x00007ff6d00111ca  obf_location_006                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 907]  0x00007ff6d00111ae  obf_location_003                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 908]  0x00007ff6d001140b  obf_location_011                RCX=0x0000  tag=TRIV  n= 4  cond=0  mem=0  call=0
+[ 909]  0x00007ff6d00128c6  rl_location_010                 RCX=0x0000  tag=MEM   n=10  cond=0  mem=2  call=0
+[ 910]  0x00007ff6d00114e2  obf_location_018                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 911]  0x00007ff6d001210d  obf_location_056                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 912]  0x00007ff6d0011990  obf_location_027                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 913]  0x00007ff6d0011c76  obf_location_038                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 914]  0x00007ff6d0012d3a  obf_location_093                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 915]  0x00007ff6d0011bb2  obf_location_037                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 916]  0x00007ff6d00111ca  obf_location_006                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 917]  0x00007ff6d00111ae  obf_location_003                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 918]  0x00007ff6d001140b  obf_location_011                RCX=0x0000  tag=TRIV  n= 4  cond=0  mem=0  call=0
+[ 919]  0x00007ff6d00128c6  rl_location_010                 RCX=0x0000  tag=MEM   n=10  cond=0  mem=2  call=0
+[ 920]  0x00007ff6d00114e2  obf_location_018                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 921]  0x00007ff6d001210d  obf_location_056                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 922]  0x00007ff6d0011990  obf_location_027                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 923]  0x00007ff6d0011c76  obf_location_038                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 924]  0x00007ff6d0012d3a  obf_location_093                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 925]  0x00007ff6d0011bb2  obf_location_037                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 926]  0x00007ff6d00111ca  obf_location_006                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 927]  0x00007ff6d00111ae  obf_location_003                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 928]  0x00007ff6d001140b  obf_location_011                RCX=0x0000  tag=TRIV  n= 4  cond=0  mem=0  call=0
+[ 929]  0x00007ff6d00128c6  rl_location_010                 RCX=0x0000  tag=MEM   n=10  cond=0  mem=2  call=0
+[ 930]  0x00007ff6d00114e2  obf_location_018                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 931]  0x00007ff6d001210d  obf_location_056                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 932]  0x00007ff6d0011990  obf_location_027                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 933]  0x00007ff6d0011c76  obf_location_038                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 934]  0x00007ff6d0012d3a  obf_location_093                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 935]  0x00007ff6d0011bb2  obf_location_037                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 936]  0x00007ff6d00111ca  obf_location_006                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 937]  0x00007ff6d00111ae  obf_location_003                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 938]  0x00007ff6d001140b  obf_location_011                RCX=0x0000  tag=TRIV  n= 4  cond=0  mem=0  call=0
+[ 939]  0x00007ff6d00128c6  rl_location_010                 RCX=0x0000  tag=MEM   n=10  cond=0  mem=2  call=0
+[ 940]  0x00007ff6d00114e2  obf_location_018                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 941]  0x00007ff6d001210d  obf_location_056                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 942]  0x00007ff6d0011990  obf_location_027                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 943]  0x00007ff6d0011c76  obf_location_038                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 944]  0x00007ff6d0012d3a  obf_location_093                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 945]  0x00007ff6d0011bb2  obf_location_037                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 946]  0x00007ff6d00111ca  obf_location_006                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 947]  0x00007ff6d00111ae  obf_location_003                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 948]  0x00007ff6d001140b  obf_location_011                RCX=0x0000  tag=TRIV  n= 4  cond=0  mem=0  call=0
+[ 949]  0x00007ff6d00128c6  rl_location_010                 RCX=0x0000  tag=MEM   n=10  cond=0  mem=2  call=0
+[ 950]  0x00007ff6d00114e2  obf_location_018                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 951]  0x00007ff6d001210d  obf_location_056                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 952]  0x00007ff6d0011990  obf_location_027                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 953]  0x00007ff6d0011c76  obf_location_038                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 954]  0x00007ff6d0012d3a  obf_location_093                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 955]  0x00007ff6d0011bb2  obf_location_037                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 956]  0x00007ff6d00111ca  obf_location_006                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 957]  0x00007ff6d00111ae  obf_location_003                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 958]  0x00007ff6d001140b  obf_location_011                RCX=0x0000  tag=TRIV  n= 4  cond=0  mem=0  call=0
+[ 959]  0x00007ff6d00128c6  rl_location_010                 RCX=0x0000  tag=MEM   n=10  cond=0  mem=2  call=0
+[ 960]  0x00007ff6d00114e2  obf_location_018                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 961]  0x00007ff6d001210d  obf_location_056                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 962]  0x00007ff6d0011990  obf_location_027                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 963]  0x00007ff6d0011c76  obf_location_038                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 964]  0x00007ff6d0012d3a  obf_location_093                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 965]  0x00007ff6d0011bb2  obf_location_037                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 966]  0x00007ff6d00111ca  obf_location_006                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 967]  0x00007ff6d00111ae  obf_location_003                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 968]  0x00007ff6d001140b  obf_location_011                RCX=0x0000  tag=TRIV  n= 4  cond=0  mem=0  call=0
+[ 969]  0x00007ff6d00128c6  rl_location_010                 RCX=0x0000  tag=MEM   n=10  cond=0  mem=2  call=0
+[ 970]  0x00007ff6d00114e2  obf_location_018                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 971]  0x00007ff6d001210d  obf_location_056                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 972]  0x00007ff6d0011990  obf_location_027                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 973]  0x00007ff6d0011c76  obf_location_038                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 974]  0x00007ff6d0012d3a  obf_location_093                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 975]  0x00007ff6d0011bb2  obf_location_037                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 976]  0x00007ff6d00111ca  obf_location_006                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 977]  0x00007ff6d00111ae  obf_location_003                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 978]  0x00007ff6d001140b  obf_location_011                RCX=0x0000  tag=TRIV  n= 4  cond=0  mem=0  call=0
+[ 979]  0x00007ff6d00128c6  rl_location_010                 RCX=0x0000  tag=MEM   n=10  cond=0  mem=2  call=0
+[ 980]  0x00007ff6d00114e2  obf_location_018                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 981]  0x00007ff6d001210d  obf_location_056                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 982]  0x00007ff6d0011990  obf_location_027                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 983]  0x00007ff6d0011c76  obf_location_038                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 984]  0x00007ff6d0012d3a  obf_location_093                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 985]  0x00007ff6d0011bb2  obf_location_037                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 986]  0x00007ff6d00111ca  obf_location_006                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 987]  0x00007ff6d00111ae  obf_location_003                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 988]  0x00007ff6d001140b  obf_location_011                RCX=0x0000  tag=TRIV  n= 4  cond=0  mem=0  call=0
+[ 989]  0x00007ff6d0012875  rl_location_011                 RCX=0x0000  tag=COND  n= 5  cond=1  mem=1  call=0
+[ 990]  0x00007ff6d0012ac9  obf_location_090                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 991]  0x00007ff6d0011f7a  obf_location_046                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 992]  0x00007ff6d0011ba4  obf_location_035                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 993]  0x00007ff6d00125b8  obf_location_073                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 994]  0x00007ff6d0011de2  obf_location_045                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 995]  0x00007ff6d0012c19  rl_location_012                 RCX=0x0000  tag=COND  n= 5  cond=1  mem=1  call=0
+[ 996]  0x00007ff6d00124ca  obf_location_069                RCX=0x0000  tag=TRIV  n= 4  cond=0  mem=0  call=0
+[ 997]  0x00007ff6d0011aee  obf_location_031                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 998]  0x00007ff6d0012a08  obf_location_086                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[ 999]  0x00007ff6d0011d48  obf_location_041                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1000]  0x00007ff6d00111a7  obf_location_002                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1001]  0x00007ff6d00120dc  rl_location_013                 RCX=0x0000  tag=COND  n= 5  cond=1  mem=0  call=0
+[1002]  0x00007ff6d0011f81  rl_location_014                 RCX=0x0000  tag=MEM   n= 9  cond=0  mem=2  call=0
+[1003]  0x00007ff6d0012a8d  obf_location_087                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1004]  0x00007ff6d0011bab  obf_location_036                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1005]  0x00007ff6d0012936  obf_location_083                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1006]  0x00007ff6d00115e8  obf_location_021                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1007]  0x00007ff6d0012122  obf_location_059                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1008]  0x00007ff6d00117f7  obf_location_023                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1009]  0x00007ff6d0012073  obf_location_049                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1010]  0x00007ff6d0011259  obf_location_007                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1011]  0x00007ff6d00111a7  obf_location_002                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1012]  0x00007ff6d00120dc  rl_location_013                 RCX=0x0000  tag=COND  n= 5  cond=1  mem=0  call=0
+[1013]  0x00007ff6d0011f81  rl_location_014                 RCX=0x0000  tag=MEM   n= 9  cond=0  mem=2  call=0
+[1014]  0x00007ff6d0012a8d  obf_location_087                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1015]  0x00007ff6d0011bab  obf_location_036                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1016]  0x00007ff6d0012936  obf_location_083                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1017]  0x00007ff6d00115e8  obf_location_021                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1018]  0x00007ff6d0012122  obf_location_059                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1019]  0x00007ff6d00117f7  obf_location_023                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1020]  0x00007ff6d0012073  obf_location_049                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1021]  0x00007ff6d0011259  obf_location_007                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1022]  0x00007ff6d00111a7  obf_location_002                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1023]  0x00007ff6d00120dc  rl_location_013                 RCX=0x0000  tag=COND  n= 5  cond=1  mem=0  call=0
+[1024]  0x00007ff6d0011f81  rl_location_014                 RCX=0x0000  tag=MEM   n= 9  cond=0  mem=2  call=0
+[1025]  0x00007ff6d0012a8d  obf_location_087                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1026]  0x00007ff6d0011bab  obf_location_036                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1027]  0x00007ff6d0012936  obf_location_083                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1028]  0x00007ff6d00115e8  obf_location_021                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1029]  0x00007ff6d0012122  obf_location_059                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1030]  0x00007ff6d00117f7  obf_location_023                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1031]  0x00007ff6d0012073  obf_location_049                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1032]  0x00007ff6d0011259  obf_location_007                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1033]  0x00007ff6d00111a7  obf_location_002                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1034]  0x00007ff6d00120dc  rl_location_013                 RCX=0x0000  tag=COND  n= 5  cond=1  mem=0  call=0
+[1035]  0x00007ff6d0011f81  rl_location_014                 RCX=0x0000  tag=MEM   n= 9  cond=0  mem=2  call=0
+[1036]  0x00007ff6d0012a8d  obf_location_087                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1037]  0x00007ff6d0011bab  obf_location_036                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1038]  0x00007ff6d0012936  obf_location_083                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1039]  0x00007ff6d00115e8  obf_location_021                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1040]  0x00007ff6d0012122  obf_location_059                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1041]  0x00007ff6d00117f7  obf_location_023                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1042]  0x00007ff6d0012073  obf_location_049                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1043]  0x00007ff6d0011259  obf_location_007                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1044]  0x00007ff6d00111a7  obf_location_002                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1045]  0x00007ff6d00120dc  rl_location_013                 RCX=0x0000  tag=COND  n= 5  cond=1  mem=0  call=0
+[1046]  0x00007ff6d0011f81  rl_location_014                 RCX=0x0000  tag=MEM   n= 9  cond=0  mem=2  call=0
+[1047]  0x00007ff6d0012a8d  obf_location_087                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1048]  0x00007ff6d0011bab  obf_location_036                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1049]  0x00007ff6d0012936  obf_location_083                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1050]  0x00007ff6d00115e8  obf_location_021                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1051]  0x00007ff6d0012122  obf_location_059                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1052]  0x00007ff6d00117f7  obf_location_023                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1053]  0x00007ff6d0012073  obf_location_049                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1054]  0x00007ff6d0011259  obf_location_007                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1055]  0x00007ff6d00111a7  obf_location_002                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1056]  0x00007ff6d00120dc  rl_location_013                 RCX=0x0000  tag=COND  n= 5  cond=1  mem=0  call=0
+[1057]  0x00007ff6d0011f81  rl_location_014                 RCX=0x0000  tag=MEM   n= 9  cond=0  mem=2  call=0
+[1058]  0x00007ff6d0012a8d  obf_location_087                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1059]  0x00007ff6d0011bab  obf_location_036                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1060]  0x00007ff6d0012936  obf_location_083                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1061]  0x00007ff6d00115e8  obf_location_021                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1062]  0x00007ff6d0012122  obf_location_059                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1063]  0x00007ff6d00117f7  obf_location_023                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1064]  0x00007ff6d0012073  obf_location_049                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1065]  0x00007ff6d0011259  obf_location_007                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1066]  0x00007ff6d00111a7  obf_location_002                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1067]  0x00007ff6d00120dc  rl_location_013                 RCX=0x0000  tag=COND  n= 5  cond=1  mem=0  call=0
+[1068]  0x00007ff6d0011f81  rl_location_014                 RCX=0x0000  tag=MEM   n= 9  cond=0  mem=2  call=0
+[1069]  0x00007ff6d0012a8d  obf_location_087                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1070]  0x00007ff6d0011bab  obf_location_036                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1071]  0x00007ff6d0012936  obf_location_083                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1072]  0x00007ff6d00115e8  obf_location_021                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1073]  0x00007ff6d0012122  obf_location_059                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1074]  0x00007ff6d00117f7  obf_location_023                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1075]  0x00007ff6d0012073  obf_location_049                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1076]  0x00007ff6d0011259  obf_location_007                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1077]  0x00007ff6d00111a7  obf_location_002                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1078]  0x00007ff6d00120dc  rl_location_013                 RCX=0x0000  tag=COND  n= 5  cond=1  mem=0  call=0
+[1079]  0x00007ff6d0011f81  rl_location_014                 RCX=0x0000  tag=MEM   n= 9  cond=0  mem=2  call=0
+[1080]  0x00007ff6d0012a8d  obf_location_087                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1081]  0x00007ff6d0011bab  obf_location_036                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1082]  0x00007ff6d0012936  obf_location_083                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1083]  0x00007ff6d00115e8  obf_location_021                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1084]  0x00007ff6d0012122  obf_location_059                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1085]  0x00007ff6d00117f7  obf_location_023                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1086]  0x00007ff6d0012073  obf_location_049                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1087]  0x00007ff6d0011259  obf_location_007                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1088]  0x00007ff6d00111a7  obf_location_002                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1089]  0x00007ff6d00120dc  rl_location_013                 RCX=0x0000  tag=COND  n= 5  cond=1  mem=0  call=0
+[1090]  0x00007ff6d0011f81  rl_location_014                 RCX=0x0000  tag=MEM   n= 9  cond=0  mem=2  call=0
+[1091]  0x00007ff6d0012a8d  obf_location_087                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1092]  0x00007ff6d0011bab  obf_location_036                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1093]  0x00007ff6d0012936  obf_location_083                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1094]  0x00007ff6d00115e8  obf_location_021                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1095]  0x00007ff6d0012122  obf_location_059                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1096]  0x00007ff6d00117f7  obf_location_023                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1097]  0x00007ff6d0012073  obf_location_049                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1098]  0x00007ff6d0011259  obf_location_007                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1099]  0x00007ff6d00111a7  obf_location_002                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1100]  0x00007ff6d00120dc  rl_location_013                 RCX=0x0000  tag=COND  n= 5  cond=1  mem=0  call=0
+[1101]  0x00007ff6d0011f81  rl_location_014                 RCX=0x0000  tag=MEM   n= 9  cond=0  mem=2  call=0
+[1102]  0x00007ff6d0012a8d  obf_location_087                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1103]  0x00007ff6d0011bab  obf_location_036                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1104]  0x00007ff6d0012936  obf_location_083                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1105]  0x00007ff6d00115e8  obf_location_021                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1106]  0x00007ff6d0012122  obf_location_059                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1107]  0x00007ff6d00117f7  obf_location_023                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1108]  0x00007ff6d0012073  obf_location_049                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1109]  0x00007ff6d0011259  obf_location_007                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1110]  0x00007ff6d00111a7  obf_location_002                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1111]  0x00007ff6d00120dc  rl_location_013                 RCX=0x0000  tag=COND  n= 5  cond=1  mem=0  call=0
+[1112]  0x00007ff6d0011f81  rl_location_014                 RCX=0x0000  tag=MEM   n= 9  cond=0  mem=2  call=0
+[1113]  0x00007ff6d0012a8d  obf_location_087                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1114]  0x00007ff6d0011bab  obf_location_036                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1115]  0x00007ff6d0012936  obf_location_083                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1116]  0x00007ff6d00115e8  obf_location_021                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1117]  0x00007ff6d0012122  obf_location_059                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1118]  0x00007ff6d00117f7  obf_location_023                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1119]  0x00007ff6d0012073  obf_location_049                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1120]  0x00007ff6d0011259  obf_location_007                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1121]  0x00007ff6d00111a7  obf_location_002                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1122]  0x00007ff6d00120dc  rl_location_013                 RCX=0x0000  tag=COND  n= 5  cond=1  mem=0  call=0
+[1123]  0x00007ff6d0011f81  rl_location_014                 RCX=0x0000  tag=MEM   n= 9  cond=0  mem=2  call=0
+[1124]  0x00007ff6d0012a8d  obf_location_087                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1125]  0x00007ff6d0011bab  obf_location_036                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1126]  0x00007ff6d0012936  obf_location_083                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1127]  0x00007ff6d00115e8  obf_location_021                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1128]  0x00007ff6d0012122  obf_location_059                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1129]  0x00007ff6d00117f7  obf_location_023                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1130]  0x00007ff6d0012073  obf_location_049                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1131]  0x00007ff6d0011259  obf_location_007                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1132]  0x00007ff6d00111a7  obf_location_002                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1133]  0x00007ff6d00120dc  rl_location_013                 RCX=0x0000  tag=COND  n= 5  cond=1  mem=0  call=0
+[1134]  0x00007ff6d0011f81  rl_location_014                 RCX=0x0000  tag=MEM   n= 9  cond=0  mem=2  call=0
+[1135]  0x00007ff6d0012a8d  obf_location_087                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1136]  0x00007ff6d0011bab  obf_location_036                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1137]  0x00007ff6d0012936  obf_location_083                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1138]  0x00007ff6d00115e8  obf_location_021                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1139]  0x00007ff6d0012122  obf_location_059                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1140]  0x00007ff6d00117f7  obf_location_023                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1141]  0x00007ff6d0012073  obf_location_049                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1142]  0x00007ff6d0011259  obf_location_007                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1143]  0x00007ff6d00111a7  obf_location_002                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1144]  0x00007ff6d00120dc  rl_location_013                 RCX=0x0000  tag=COND  n= 5  cond=1  mem=0  call=0
+[1145]  0x00007ff6d0011f81  rl_location_014                 RCX=0x0000  tag=MEM   n= 9  cond=0  mem=2  call=0
+[1146]  0x00007ff6d0012a8d  obf_location_087                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1147]  0x00007ff6d0011bab  obf_location_036                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1148]  0x00007ff6d0012936  obf_location_083                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1149]  0x00007ff6d00115e8  obf_location_021                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1150]  0x00007ff6d0012122  obf_location_059                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1151]  0x00007ff6d00117f7  obf_location_023                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1152]  0x00007ff6d0012073  obf_location_049                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1153]  0x00007ff6d0011259  obf_location_007                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1154]  0x00007ff6d00111a7  obf_location_002                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1155]  0x00007ff6d00120dc  rl_location_013                 RCX=0x0000  tag=COND  n= 5  cond=1  mem=0  call=0
+[1156]  0x00007ff6d00117b6  rl_location_015                 RCX=0x0000  tag=CALL  n= 7  cond=0  mem=0  call=2
+[1157]  0x00007ff6d00117b6  rl_location_015                 RCX=0x0000  tag=CALL  n= 7  cond=0  mem=0  call=2
+[1158]  0x00007ff6d0012771  obf_location_081                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1159]  0x00007ff6d0011cc3  obf_location_040                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1160]  0x00007ff6d00120c7  obf_location_050                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1161]  0x00007ff6d001228e  obf_location_066                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1162]  0x00007ff6d00111bc  obf_location_004                RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1163]  0x00007ff6d00120f8  location_11                     RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1164]  0x00007ff6d0012659  location_12                     RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1165]  0x00007ff6d0012d80  location_13                     RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1166]  0x00007ff6d0012c30  location_14                     RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1167]  0x00007ff6d0012360  location_15                     RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1168]  0x00007ff6d00125fe  location_16                     RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1169]  0x00007ff6d00129bb  location_17                     RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1170]  0x00007ff6d0012129  location_18                     RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1171]  0x00007ff6d0011a1c  location_19                     RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1172]  0x00007ff6d0011d4f  location_20                     RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+[1173]  0x00007ff6d00111a0  location_21                     RCX=0x0000  tag=TRIV  n= 2  cond=0  mem=0  call=0
+
+------------------------------------------------------------------------
+Section 2 - Frequency table (most-visited first)
+------------------------------------------------------------------------
+  hits  address             name                            tag   n_ins  cond  mem  call
+    17  0x00007ff6d0011267  rl_location_002                 MEM       4     0    1     0
+    17  0x00007ff6d00111ae  obf_location_003                TRIV      2     0    0     0
+    17  0x00007ff6d001140b  obf_location_011                TRIV      4     0    0     0
+    16  0x00007ff6d00124b0  rl_location_003                 MEM       6     0    2     0
+    16  0x00007ff6d001213e  obf_location_063                TRIV      2     0    0     0
+    16  0x00007ff6d0012145  obf_location_064                TRIV      2     0    0     0
+    16  0x00007ff6d0012106  obf_location_055                TRIV      2     0    0     0
+    16  0x00007ff6d0012114  obf_location_057                TRIV      2     0    0     0
+    16  0x00007ff6d00117dc  rl_location_004                 MEM       6     0    3     0
+    16  0x00007ff6d0012a01  obf_location_085                TRIV      2     0    0     0
+    16  0x00007ff6d001155c  obf_location_019                TRIV      2     0    0     0
+    16  0x00007ff6d0012c37  obf_location_092                TRIV      2     0    0     0
+    16  0x00007ff6d0012a94  obf_location_088                TRIV      2     0    0     0
+    16  0x00007ff6d00114db  obf_location_017                TRIV      2     0    0     0
+    16  0x00007ff6d0011b7a  obf_location_032                TRIV      2     0    0     0
+    16  0x00007ff6d001206c  obf_location_048                TRIV      2     0    0     0
+    16  0x00007ff6d00112d0  rl_location_005                 MEM       5     0    1     0
+    16  0x00007ff6d00124d8  obf_location_070                TRIV      2     0    0     0
+    16  0x00007ff6d0011808  obf_location_025                TRIV      2     0    0     0
+    16  0x00007ff6d001180f  obf_location_026                TRIV      2     0    0     0
+    16  0x00007ff6d001146b  obf_location_013                TRIV      2     0    0     0
+    16  0x00007ff6d00112ba  rl_location_006                 MEM       5     0    1     0
+    16  0x00007ff6d00120f1  obf_location_052                TRIV      2     0    0     0
+    16  0x00007ff6d001251e  obf_location_071                TRIV      2     0    0     0
+    16  0x00007ff6d0012525  obf_location_072                TRIV      2     0    0     0
+    16  0x00007ff6d00115ef  obf_location_022                TRIV      2     0    0     0
+    16  0x00007ff6d00114c6  rl_location_007                 MEM       6     0    1     0
+    16  0x00007ff6d0011cbc  obf_location_039                TRIV      2     0    0     0
+    16  0x00007ff6d0011d9c  obf_location_044                TRIV      2     0    0     0
+    16  0x00007ff6d0012295  obf_location_067                TRIV      2     0    0     0
+    16  0x00007ff6d0011de9  rl_location_008                 MEM       3     0    1     0
+    16  0x00007ff6d0011aa1  obf_location_029                TRIV      2     0    0     0
+    16  0x00007ff6d0011b88  obf_location_034                TRIV      2     0    0     0
+    16  0x00007ff6d0011ae7  obf_location_030                TRIV      2     0    0     0
+    16  0x00007ff6d00114b1  obf_location_014                TRIV      2     0    0     0
+    16  0x00007ff6d0011404  obf_location_010                TRIV      2     0    0     0
+    16  0x00007ff6d00128f0  obf_location_082                TRIV      2     0    0     0
+    16  0x00007ff6d001264b  obf_location_076                TRIV      3     0    0     0
+    16  0x00007ff6d00111c3  obf_location_005                TRIV      2     0    0     0
+    16  0x00007ff6d0012248  obf_location_065                TRIV      2     0    0     0
+    16  0x00007ff6d0011260  obf_location_008                TRIV      2     0    0     0
+    16  0x00007ff6d0011464  obf_location_012                TRIV      2     0    0     0
+    16  0x00007ff6d0011334  obf_location_009                TRIV      2     0    0     0
+    16  0x00007ff6d001211b  obf_location_058                TRIV      2     0    0     0
+    16  0x00007ff6d0012026  obf_location_047                TRIV      2     0    0     0
+    16  0x00007ff6d00117fe  obf_location_024                TRIV      3     0    0     0
+    16  0x00007ff6d0011d95  obf_location_043                TRIV      2     0    0     0
+    16  0x00007ff6d0012724  obf_location_079                TRIV      2     0    0     0
+    16  0x00007ff6d0012605  obf_location_075                TRIV      2     0    0     0
+    16  0x00007ff6d001271d  obf_location_078                TRIV      2     0    0     0
+    16  0x00007ff6d00120ff  obf_location_054                TRIV      2     0    0     0
+    16  0x00007ff6d0012ac2  obf_location_089                TRIV      2     0    0     0
+    16  0x00007ff6d0012137  obf_location_062                TRIV      2     0    0     0
+    16  0x00007ff6d00128c6  rl_location_010                 MEM      10     0    2     0
+    16  0x00007ff6d00114e2  obf_location_018                TRIV      2     0    0     0
+    16  0x00007ff6d001210d  obf_location_056                TRIV      2     0    0     0
+    16  0x00007ff6d0011990  obf_location_027                TRIV      2     0    0     0
+    16  0x00007ff6d0011c76  obf_location_038                TRIV      2     0    0     0
+    16  0x00007ff6d0012d3a  obf_location_093                TRIV      2     0    0     0
+    16  0x00007ff6d0011bb2  obf_location_037                TRIV      2     0    0     0
+    16  0x00007ff6d00111ca  obf_location_006                TRIV      2     0    0     0
+    15  0x00007ff6d00111a7  obf_location_002                TRIV      2     0    0     0
+    15  0x00007ff6d00120dc  rl_location_013                 COND      5     1    0     0
+    14  0x00007ff6d0011f81  rl_location_014                 MEM       9     0    2     0
+    14  0x00007ff6d0012a8d  obf_location_087                TRIV      2     0    0     0
+    14  0x00007ff6d0011bab  obf_location_036                TRIV      2     0    0     0
+    14  0x00007ff6d0012936  obf_location_083                TRIV      2     0    0     0
+    14  0x00007ff6d00115e8  obf_location_021                TRIV      2     0    0     0
+    14  0x00007ff6d0012122  obf_location_059                TRIV      2     0    0     0
+    14  0x00007ff6d00117f7  obf_location_023                TRIV      2     0    0     0
+    14  0x00007ff6d0012073  obf_location_049                TRIV      2     0    0     0
+    14  0x00007ff6d0011259  obf_location_007                TRIV      2     0    0     0
+     2  0x00007ff6d00117b6  rl_location_015                 CALL      7     0    0     2
+     1  0x00007ff6d0011b8f  rl_location_001                 MEM       4     0    1     0
+     1  0x00007ff6d001117e  base_location                   COND     12     1    1     0
+     1  0x00007ff6d00115e1  obf_location_020                TRIV      2     0    0     0
+     1  0x00007ff6d00114b8  obf_location_015                TRIV      2     0    0     0
+     1  0x00007ff6d0011b81  obf_location_033                TRIV      2     0    0     0
+     1  0x00007ff6d0012130  obf_location_061                TRIV      2     0    0     0
+     1  0x00007ff6d001272b  obf_location_080                TRIV      2     0    0     0
+     1  0x00007ff6d00120d5  obf_location_051                TRIV      2     0    0     0
+     1  0x00007ff6d00114bf  obf_location_016                TRIV      2     0    0     0
+     1  0x00007ff6d0012875  rl_location_011                 COND      5     1    1     0
+     1  0x00007ff6d0012ac9  obf_location_090                TRIV      2     0    0     0
+     1  0x00007ff6d0011f7a  obf_location_046                TRIV      2     0    0     0
+     1  0x00007ff6d0011ba4  obf_location_035                TRIV      2     0    0     0
+     1  0x00007ff6d00125b8  obf_location_073                TRIV      2     0    0     0
+     1  0x00007ff6d0011de2  obf_location_045                TRIV      2     0    0     0
+     1  0x00007ff6d0012c19  rl_location_012                 COND      5     1    1     0
+     1  0x00007ff6d00124ca  obf_location_069                TRIV      4     0    0     0
+     1  0x00007ff6d0011aee  obf_location_031                TRIV      2     0    0     0
+     1  0x00007ff6d0012a08  obf_location_086                TRIV      2     0    0     0
+     1  0x00007ff6d0011d48  obf_location_041                TRIV      2     0    0     0
+     1  0x00007ff6d0012771  obf_location_081                TRIV      2     0    0     0
+     1  0x00007ff6d0011cc3  obf_location_040                TRIV      2     0    0     0
+     1  0x00007ff6d00120c7  obf_location_050                TRIV      2     0    0     0
+     1  0x00007ff6d001228e  obf_location_066                TRIV      2     0    0     0
+     1  0x00007ff6d00111bc  obf_location_004                TRIV      2     0    0     0
+     1  0x00007ff6d00120f8  location_11                     TRIV      2     0    0     0
+     1  0x00007ff6d0012659  location_12                     TRIV      2     0    0     0
+     1  0x00007ff6d0012d80  location_13                     TRIV      2     0    0     0
+     1  0x00007ff6d0012c30  location_14                     TRIV      2     0    0     0
+     1  0x00007ff6d0012360  location_15                     TRIV      2     0    0     0
+     1  0x00007ff6d00125fe  location_16                     TRIV      2     0    0     0
+     1  0x00007ff6d00129bb  location_17                     TRIV      2     0    0     0
+     1  0x00007ff6d0012129  location_18                     TRIV      2     0    0     0
+     1  0x00007ff6d0011a1c  location_19                     TRIV      2     0    0     0
+     1  0x00007ff6d0011d4f  location_20                     TRIV      2     0    0     0
+     1  0x00007ff6d00111a0  location_21                     TRIV      2     0    0     0
+
+------------------------------------------------------------------------
+Section 3 - Interesting handler bodies (non-TRIV, visit-sorted)
+------------------------------------------------------------------------
+
+[MEM] rl_location_002  @ 0x7ff6d0011267  visits=17  insns=4  cond=0  mem=1  call=0
+    0x7ff6d0011267  cmp     rbx, [rsp+118h+var_E0]; jumptable 00007FF6D001119D case 27
+    0x7ff6d001126c  mov     ecx, 99h
+    0x7ff6d0011271  mov     eax, 0CDh
+    0x7ff6d0011276  jmp     loc_7FF6D00120E9
+
+[MEM] rl_location_003  @ 0x7ff6d00124b0  visits=16  insns=6  cond=0  mem=2  call=0
+    0x7ff6d00124b0  cmp     rbx, 10h; jumptable 00007FF6D001119D case 152
+    0x7ff6d00124b4  jnb     loc_7FF6D00131EB
+    0x7ff6d00124ba  mov     al, byte ptr [rsp+rbx+118h+var_A8]
+    0x7ff6d00124be  mov     [rsp+118h+var_D8], rax
+    0x7ff6d00124c3  mov     al, 0A3h
+    0x7ff6d00124c5  jmp     loc_7FF6D00131B8
+
+[MEM] rl_location_004  @ 0x7ff6d00117dc  visits=16  insns=6  cond=0  mem=3  call=0
+    0x7ff6d00117dc  movzx   eax, byte ptr [rsp+118h+var_D8]; jumptable 00007FF6D001119D case 81
+    0x7ff6d00117e1  lea     rcx, unk_7FF6D0014030
+    0x7ff6d00117e8  mov     al, [rax+rcx]
+    0x7ff6d00117eb  mov     [rsp+118h+var_D0], rax
+    0x7ff6d00117f0  mov     al, 28h ; '('
+    0x7ff6d00117f2  jmp     loc_7FF6D00131B8
+
+[MEM] rl_location_005  @ 0x7ff6d00112d0  visits=16  insns=5  cond=0  mem=1  call=0
+    0x7ff6d00112d0  mov     r13d, r15d; jumptable 00007FF6D001119D case 40
+    0x7ff6d00112d3  shr     r13d, 8
+    0x7ff6d00112d7  xor     r13b, byte ptr [rsp+118h+var_D0]
+    0x7ff6d00112dc  mov     al, 0DCh
+    0x7ff6d00112de  jmp     loc_7FF6D00131B8
+
+[MEM] rl_location_006  @ 0x7ff6d00112ba  visits=16  insns=5  cond=0  mem=1  call=0
+    0x7ff6d00112ba  cmp     rbx, 10h; jumptable 00007FF6D001119D case 31
+    0x7ff6d00112be  jnb     loc_7FF6D00131EB
+    0x7ff6d00112c4  mov     byte ptr [rsp+rbx+118h+NumberOfCharsRead], r13b
+    0x7ff6d00112c9  mov     al, 0EBh
+    0x7ff6d00112cb  jmp     loc_7FF6D00131B8
+
+[MEM] rl_location_007  @ 0x7ff6d00114c6  visits=16  insns=6  cond=0  mem=1  call=0
+    0x7ff6d00114c6  movzx   eax, r13b; jumptable 00007FF6D001119D case 65
+    0x7ff6d00114ca  shl     eax, 8
+    0x7ff6d00114cd  xor     eax, r15d
+    0x7ff6d00114d0  mov     [rsp+118h+var_EC], eax
+    0x7ff6d00114d4  mov     al, 1Fh
+    0x7ff6d00114d6  jmp     loc_7FF6D00131B8
+
+[MEM] rl_location_008  @ 0x7ff6d0011de9  visits=16  insns=3  cond=0  mem=1  call=0
+    0x7ff6d0011de9  imul    r15d, [rsp+118h+var_EC], 0C2B2AE3Dh; jumptable 00007FF6D001119D case 182
+    0x7ff6d0011df2  mov     al, 61h ; 'a'
+    0x7ff6d0011df4  jmp     loc_7FF6D00131B8
+
+[MEM] rl_location_010  @ 0x7ff6d00128c6  visits=16  insns=10  cond=0  mem=2  call=0
+    0x7ff6d00128c6  cmp     r14, 10h; jumptable 00007FF6D001119D case 33
+    0x7ff6d00128ca  jnb     loc_7FF6D00131F8
+    0x7ff6d00128d0  lea     rax, unk_7FF6D001417C
+    0x7ff6d00128d7  mov     cl, [r14+rax]
+    0x7ff6d00128db  xor     cl, byte ptr [rsp+r14+118h+NumberOfCharsRead]
+    0x7ff6d00128e0  or      cl, bpl
+    0x7ff6d00128e3  inc     r14
+    0x7ff6d00128e6  mov     al, 7Eh ; '~'
+    0x7ff6d00128e8  mov     rdx, r14
+    0x7ff6d00128eb  jmp     base_location; jumptable 00007FF6D001119D case 204
+
+[COND] rl_location_013  @ 0x7ff6d00120dc  visits=15  insns=5  cond=1  mem=0  call=0
+    0x7ff6d00120dc  cmp     rdi, rsi; jumptable 00007FF6D001119D case 231
+    0x7ff6d00120df  mov     ecx, 0BFh
+    0x7ff6d00120e4  mov     eax, 0A0h
+    0x7ff6d00120e9  cmovb   eax, ecx
+    0x7ff6d00120ec  jmp     loc_7FF6D00131B8
+
+[MEM] rl_location_014  @ 0x7ff6d0011f81  visits=14  insns=9  cond=0  mem=2  call=0
+    0x7ff6d0011f81  cmp     rdi, 0Eh; jumptable 00007FF6D001119D case 190
+    0x7ff6d0011f85  jnb     loc_7FF6D001320C
+    0x7ff6d0011f8b  lea     rax, unk_7FF6D0014150
+    0x7ff6d0011f92  mov     al, [rdi+rax]
+    0x7ff6d0011f95  xor     al, 0CDh
+    0x7ff6d0011f97  mov     byte ptr [rsp+rdi+118h+Buffer], al
+    0x7ff6d0011f9e  inc     rdi
+    0x7ff6d0011fa1  mov     al, 24h ; '$'
+    0x7ff6d0011fa3  jmp     loc_7FF6D00131B8
+
+[CALL] rl_location_015  @ 0x7ff6d00117b6  visits=2  insns=7  cond=0  mem=0  call=2
+    0x7ff6d00117b6  lea     rcx, [rsp+118h+Buffer]; jumptable 00007FF6D001119D case 159
+    0x7ff6d00117be  mov     rdx, rsi
+    0x7ff6d00117c1  call    bounds_check_func
+    0x7ff6d00117c6  mov     rcx, rax; lpBuffer
+    0x7ff6d00117c9  call    WriteConsoleA_wrapper
+    0x7ff6d00117ce  mov     al, 0C2h
+    0x7ff6d00117d0  jmp     loc_7FF6D00131B8
+
+[MEM] rl_location_001  @ 0x7ff6d0011b8f  visits=1  insns=4  cond=0  mem=1  call=0
+    0x7ff6d0011b8f  cmp     [rsp+118h+var_E0], 0; jumptable 00007FF6D001119D case 202
+    0x7ff6d0011b95  mov     ecx, 0C8h
+    0x7ff6d0011b9a  mov     eax, 1Ch
+    0x7ff6d0011b9f  jmp     loc_7FF6D001282E
+
+[COND] base_location  @ 0x7ff6d001117e  visits=1  insns=12  cond=1  mem=1  call=0
+    0x7ff6d001117e  test    al, al; jumptable 00007FF6D001119D case 204
+    0x7ff6d0011180  jz      last_location
+    0x7ff6d0011186  mov     r14, rdx
+    0x7ff6d0011189  mov     ebp, ecx
+    0x7ff6d001118b  movzx   ecx, al
+    0x7ff6d001118e  mov     al, 9Ch
+    0x7ff6d0011190  dec     ecx
+    0x7ff6d0011192  movsxd  r8, ds:(jpt_7FF6D001119D - 7FF6D001418Ch)[r12+rcx*4]; switch 238 cases
+    0x7ff6d0011196  add     r8, r12
+    0x7ff6d0011199  xor     ecx, ecx
+    0x7ff6d001119b  xor     edx, edx
+    0x7ff6d001119d  jmp     r8; switch jump
+
+[COND] rl_location_011  @ 0x7ff6d0012875  visits=1  insns=5  cond=1  mem=1  call=0
+    0x7ff6d0012875  test    bpl, bpl; jumptable 00007FF6D001119D case 79
+    0x7ff6d0012878  setz    al
+    0x7ff6d001287b  mov     [rsp+118h+var_E8], rax
+    0x7ff6d0012880  mov     al, 67h ; 'g'
+    0x7ff6d0012882  jmp     loc_7FF6D00131B8
+
+[COND] rl_location_012  @ 0x7ff6d0012c19  visits=1  insns=5  cond=1  mem=1  call=0
+    0x7ff6d0012c19  test    byte ptr [rsp+118h+var_E8], 1; jumptable 00007FF6D001119D case 21
+    0x7ff6d0012c1e  mov     ecx, 36h ; '6'
+    0x7ff6d0012c23  mov     eax, 0C8h
+    0x7ff6d0012c28  cmovnz  eax, ecx
+    0x7ff6d0012c2b  jmp     loc_7FF6D00131B8
+
+------------------------------------------------------------------------
+Section 4 - Rename map (TRIV handlers -> obf_location_NNN)
+------------------------------------------------------------------------
+address             old name                     -> new name
+0x00007ff6d00111a7  obf_location_002             -> obf_location_002
+0x00007ff6d00111ae  obf_location_003             -> obf_location_003
+0x00007ff6d00111bc  obf_location_004             -> obf_location_004
+0x00007ff6d00111c3  obf_location_005             -> obf_location_005
+0x00007ff6d00111ca  obf_location_006             -> obf_location_006
+0x00007ff6d0011259  obf_location_007             -> obf_location_007
+0x00007ff6d0011260  obf_location_008             -> obf_location_008
+0x00007ff6d0011334  obf_location_009             -> obf_location_009
+0x00007ff6d0011404  obf_location_010             -> obf_location_010
+0x00007ff6d001140b  obf_location_011             -> obf_location_011
+0x00007ff6d0011464  obf_location_012             -> obf_location_012
+0x00007ff6d001146b  obf_location_013             -> obf_location_013
+0x00007ff6d00114b1  obf_location_014             -> obf_location_014
+0x00007ff6d00114b8  obf_location_015             -> obf_location_015
+0x00007ff6d00114bf  obf_location_016             -> obf_location_016
+0x00007ff6d00114db  obf_location_017             -> obf_location_017
+0x00007ff6d00114e2  obf_location_018             -> obf_location_018
+0x00007ff6d001155c  obf_location_019             -> obf_location_019
+0x00007ff6d00115e1  obf_location_020             -> obf_location_020
+0x00007ff6d00115e8  obf_location_021             -> obf_location_021
+0x00007ff6d00115ef  obf_location_022             -> obf_location_022
+0x00007ff6d00117f7  obf_location_023             -> obf_location_023
+0x00007ff6d00117fe  obf_location_024             -> obf_location_024
+0x00007ff6d0011808  obf_location_025             -> obf_location_025
+0x00007ff6d001180f  obf_location_026             -> obf_location_026
+0x00007ff6d0011990  obf_location_027             -> obf_location_027
+0x00007ff6d0011aa1  obf_location_029             -> obf_location_029
+0x00007ff6d0011ae7  obf_location_030             -> obf_location_030
+0x00007ff6d0011aee  obf_location_031             -> obf_location_031
+0x00007ff6d0011b7a  obf_location_032             -> obf_location_032
+0x00007ff6d0011b81  obf_location_033             -> obf_location_033
+0x00007ff6d0011b88  obf_location_034             -> obf_location_034
+0x00007ff6d0011ba4  obf_location_035             -> obf_location_035
+0x00007ff6d0011bab  obf_location_036             -> obf_location_036
+0x00007ff6d0011bb2  obf_location_037             -> obf_location_037
+0x00007ff6d0011c76  obf_location_038             -> obf_location_038
+0x00007ff6d0011cbc  obf_location_039             -> obf_location_039
+0x00007ff6d0011cc3  obf_location_040             -> obf_location_040
+0x00007ff6d0011d48  obf_location_041             -> obf_location_041
+0x00007ff6d0011d95  obf_location_043             -> obf_location_043
+0x00007ff6d0011d9c  obf_location_044             -> obf_location_044
+0x00007ff6d0011de2  obf_location_045             -> obf_location_045
+0x00007ff6d0011f7a  obf_location_046             -> obf_location_046
+0x00007ff6d0012026  obf_location_047             -> obf_location_047
+0x00007ff6d001206c  obf_location_048             -> obf_location_048
+0x00007ff6d0012073  obf_location_049             -> obf_location_049
+0x00007ff6d00120c7  obf_location_050             -> obf_location_050
+0x00007ff6d00120d5  obf_location_051             -> obf_location_051
+0x00007ff6d00120f1  obf_location_052             -> obf_location_052
+0x00007ff6d00120ff  obf_location_054             -> obf_location_054
+0x00007ff6d0012106  obf_location_055             -> obf_location_055
+0x00007ff6d001210d  obf_location_056             -> obf_location_056
+0x00007ff6d0012114  obf_location_057             -> obf_location_057
+0x00007ff6d001211b  obf_location_058             -> obf_location_058
+0x00007ff6d0012122  obf_location_059             -> obf_location_059
+0x00007ff6d0012130  obf_location_061             -> obf_location_061
+0x00007ff6d0012137  obf_location_062             -> obf_location_062
+0x00007ff6d001213e  obf_location_063             -> obf_location_063
+0x00007ff6d0012145  obf_location_064             -> obf_location_064
+0x00007ff6d0012248  obf_location_065             -> obf_location_065
+0x00007ff6d001228e  obf_location_066             -> obf_location_066
+0x00007ff6d0012295  obf_location_067             -> obf_location_067
+0x00007ff6d00124ca  obf_location_069             -> obf_location_069
+0x00007ff6d00124d8  obf_location_070             -> obf_location_070
+0x00007ff6d001251e  obf_location_071             -> obf_location_071
+0x00007ff6d0012525  obf_location_072             -> obf_location_072
+0x00007ff6d00125b8  obf_location_073             -> obf_location_073
+0x00007ff6d0012605  obf_location_075             -> obf_location_075
+0x00007ff6d001264b  obf_location_076             -> obf_location_076
+0x00007ff6d001271d  obf_location_078             -> obf_location_078
+0x00007ff6d0012724  obf_location_079             -> obf_location_079
+0x00007ff6d001272b  obf_location_080             -> obf_location_080
+0x00007ff6d0012771  obf_location_081             -> obf_location_081
+0x00007ff6d00128f0  obf_location_082             -> obf_location_082
+0x00007ff6d0012936  obf_location_083             -> obf_location_083
+0x00007ff6d0012a01  obf_location_085             -> obf_location_085
+0x00007ff6d0012a08  obf_location_086             -> obf_location_086
+0x00007ff6d0012a8d  obf_location_087             -> obf_location_087
+0x00007ff6d0012a94  obf_location_088             -> obf_location_088
+0x00007ff6d0012ac2  obf_location_089             -> obf_location_089
+0x00007ff6d0012ac9  obf_location_090             -> obf_location_090
+0x00007ff6d0012c37  obf_location_092             -> obf_location_092
+0x00007ff6d0012d3a  obf_location_093             -> obf_location_093
+
+------------------------------------------------------------------------
+Section 5 - Real execution flow (TRIV handlers filtered out)
+------------------------------------------------------------------------
+ step   hit#  address             name                          tag  n_ins  cond  mem  call
+    1      1  0x00007ff6d0011b8f  rl_location_001               MEM      4     0    1     0
+    2      2  0x00007ff6d0011267  rl_location_002               MEM      4     0    1     0
+    3      3  0x00007ff6d00124b0  rl_location_003               MEM      6     0    2     0
+    4      8  0x00007ff6d00117dc  rl_location_004               MEM      6     0    3     0
+    5     16  0x00007ff6d00112d0  rl_location_005               MEM      5     0    1     0
+    6     21  0x00007ff6d00112ba  rl_location_006               MEM      5     0    1     0
+    7     26  0x00007ff6d00114c6  rl_location_007               MEM      6     0    1     0
+    8     30  0x00007ff6d0011de9  rl_location_008               MEM      3     0    1     0
+    9     53  0x00007ff6d0011267  rl_location_002               MEM      4     0    1     0
+   10     54  0x00007ff6d00124b0  rl_location_003               MEM      6     0    2     0
+   11     59  0x00007ff6d00117dc  rl_location_004               MEM      6     0    3     0
+   12     67  0x00007ff6d00112d0  rl_location_005               MEM      5     0    1     0
+   13     72  0x00007ff6d00112ba  rl_location_006               MEM      5     0    1     0
+   14     77  0x00007ff6d00114c6  rl_location_007               MEM      6     0    1     0
+   15     81  0x00007ff6d0011de9  rl_location_008               MEM      3     0    1     0
+   16    104  0x00007ff6d0011267  rl_location_002               MEM      4     0    1     0
+   17    105  0x00007ff6d00124b0  rl_location_003               MEM      6     0    2     0
+   18    110  0x00007ff6d00117dc  rl_location_004               MEM      6     0    3     0
+   19    118  0x00007ff6d00112d0  rl_location_005               MEM      5     0    1     0
+   20    123  0x00007ff6d00112ba  rl_location_006               MEM      5     0    1     0
+   21    128  0x00007ff6d00114c6  rl_location_007               MEM      6     0    1     0
+   22    132  0x00007ff6d0011de9  rl_location_008               MEM      3     0    1     0
+   23    155  0x00007ff6d0011267  rl_location_002               MEM      4     0    1     0
+   24    156  0x00007ff6d00124b0  rl_location_003               MEM      6     0    2     0
+   25    161  0x00007ff6d00117dc  rl_location_004               MEM      6     0    3     0
+   26    169  0x00007ff6d00112d0  rl_location_005               MEM      5     0    1     0
+   27    174  0x00007ff6d00112ba  rl_location_006               MEM      5     0    1     0
+   28    179  0x00007ff6d00114c6  rl_location_007               MEM      6     0    1     0
+   29    183  0x00007ff6d0011de9  rl_location_008               MEM      3     0    1     0
+   30    206  0x00007ff6d0011267  rl_location_002               MEM      4     0    1     0
+   31    207  0x00007ff6d00124b0  rl_location_003               MEM      6     0    2     0
+   32    212  0x00007ff6d00117dc  rl_location_004               MEM      6     0    3     0
+   33    220  0x00007ff6d00112d0  rl_location_005               MEM      5     0    1     0
+   34    225  0x00007ff6d00112ba  rl_location_006               MEM      5     0    1     0
+   35    230  0x00007ff6d00114c6  rl_location_007               MEM      6     0    1     0
+   36    234  0x00007ff6d0011de9  rl_location_008               MEM      3     0    1     0
+   37    257  0x00007ff6d0011267  rl_location_002               MEM      4     0    1     0
+   38    258  0x00007ff6d00124b0  rl_location_003               MEM      6     0    2     0
+   39    263  0x00007ff6d00117dc  rl_location_004               MEM      6     0    3     0
+   40    271  0x00007ff6d00112d0  rl_location_005               MEM      5     0    1     0
+   41    276  0x00007ff6d00112ba  rl_location_006               MEM      5     0    1     0
+   42    281  0x00007ff6d00114c6  rl_location_007               MEM      6     0    1     0
+   43    285  0x00007ff6d0011de9  rl_location_008               MEM      3     0    1     0
+   44    308  0x00007ff6d0011267  rl_location_002               MEM      4     0    1     0
+   45    309  0x00007ff6d00124b0  rl_location_003               MEM      6     0    2     0
+   46    314  0x00007ff6d00117dc  rl_location_004               MEM      6     0    3     0
+   47    322  0x00007ff6d00112d0  rl_location_005               MEM      5     0    1     0
+   48    327  0x00007ff6d00112ba  rl_location_006               MEM      5     0    1     0
+   49    332  0x00007ff6d00114c6  rl_location_007               MEM      6     0    1     0
+   50    336  0x00007ff6d0011de9  rl_location_008               MEM      3     0    1     0
+   51    359  0x00007ff6d0011267  rl_location_002               MEM      4     0    1     0
+   52    360  0x00007ff6d00124b0  rl_location_003               MEM      6     0    2     0
+   53    365  0x00007ff6d00117dc  rl_location_004               MEM      6     0    3     0
+   54    373  0x00007ff6d00112d0  rl_location_005               MEM      5     0    1     0
+   55    378  0x00007ff6d00112ba  rl_location_006               MEM      5     0    1     0
+   56    383  0x00007ff6d00114c6  rl_location_007               MEM      6     0    1     0
+   57    387  0x00007ff6d0011de9  rl_location_008               MEM      3     0    1     0
+   58    410  0x00007ff6d0011267  rl_location_002               MEM      4     0    1     0
+   59    411  0x00007ff6d00124b0  rl_location_003               MEM      6     0    2     0
+   60    416  0x00007ff6d00117dc  rl_location_004               MEM      6     0    3     0
+   61    424  0x00007ff6d00112d0  rl_location_005               MEM      5     0    1     0
+   62    429  0x00007ff6d00112ba  rl_location_006               MEM      5     0    1     0
+   63    434  0x00007ff6d00114c6  rl_location_007               MEM      6     0    1     0
+   64    438  0x00007ff6d0011de9  rl_location_008               MEM      3     0    1     0
+   65    461  0x00007ff6d0011267  rl_location_002               MEM      4     0    1     0
+   66    462  0x00007ff6d00124b0  rl_location_003               MEM      6     0    2     0
+   67    467  0x00007ff6d00117dc  rl_location_004               MEM      6     0    3     0
+   68    475  0x00007ff6d00112d0  rl_location_005               MEM      5     0    1     0
+   69    480  0x00007ff6d00112ba  rl_location_006               MEM      5     0    1     0
+   70    485  0x00007ff6d00114c6  rl_location_007               MEM      6     0    1     0
+   71    489  0x00007ff6d0011de9  rl_location_008               MEM      3     0    1     0
+   72    512  0x00007ff6d0011267  rl_location_002               MEM      4     0    1     0
+   73    513  0x00007ff6d00124b0  rl_location_003               MEM      6     0    2     0
+   74    518  0x00007ff6d00117dc  rl_location_004               MEM      6     0    3     0
+   75    526  0x00007ff6d00112d0  rl_location_005               MEM      5     0    1     0
+   76    531  0x00007ff6d00112ba  rl_location_006               MEM      5     0    1     0
+   77    536  0x00007ff6d00114c6  rl_location_007               MEM      6     0    1     0
+   78    540  0x00007ff6d0011de9  rl_location_008               MEM      3     0    1     0
+   79    563  0x00007ff6d0011267  rl_location_002               MEM      4     0    1     0
+   80    564  0x00007ff6d00124b0  rl_location_003               MEM      6     0    2     0
+   81    569  0x00007ff6d00117dc  rl_location_004               MEM      6     0    3     0
+   82    577  0x00007ff6d00112d0  rl_location_005               MEM      5     0    1     0
+   83    582  0x00007ff6d00112ba  rl_location_006               MEM      5     0    1     0
+   84    587  0x00007ff6d00114c6  rl_location_007               MEM      6     0    1     0
+   85    591  0x00007ff6d0011de9  rl_location_008               MEM      3     0    1     0
+   86    614  0x00007ff6d0011267  rl_location_002               MEM      4     0    1     0
+   87    615  0x00007ff6d00124b0  rl_location_003               MEM      6     0    2     0
+   88    620  0x00007ff6d00117dc  rl_location_004               MEM      6     0    3     0
+   89    628  0x00007ff6d00112d0  rl_location_005               MEM      5     0    1     0
+   90    633  0x00007ff6d00112ba  rl_location_006               MEM      5     0    1     0
+   91    638  0x00007ff6d00114c6  rl_location_007               MEM      6     0    1     0
+   92    642  0x00007ff6d0011de9  rl_location_008               MEM      3     0    1     0
+   93    665  0x00007ff6d0011267  rl_location_002               MEM      4     0    1     0
+   94    666  0x00007ff6d00124b0  rl_location_003               MEM      6     0    2     0
+   95    671  0x00007ff6d00117dc  rl_location_004               MEM      6     0    3     0
+   96    679  0x00007ff6d00112d0  rl_location_005               MEM      5     0    1     0
+   97    684  0x00007ff6d00112ba  rl_location_006               MEM      5     0    1     0
+   98    689  0x00007ff6d00114c6  rl_location_007               MEM      6     0    1     0
+   99    693  0x00007ff6d0011de9  rl_location_008               MEM      3     0    1     0
+  100    716  0x00007ff6d0011267  rl_location_002               MEM      4     0    1     0
+  101    717  0x00007ff6d00124b0  rl_location_003               MEM      6     0    2     0
+  102    722  0x00007ff6d00117dc  rl_location_004               MEM      6     0    3     0
+  103    730  0x00007ff6d00112d0  rl_location_005               MEM      5     0    1     0
+  104    735  0x00007ff6d00112ba  rl_location_006               MEM      5     0    1     0
+  105    740  0x00007ff6d00114c6  rl_location_007               MEM      6     0    1     0
+  106    744  0x00007ff6d0011de9  rl_location_008               MEM      3     0    1     0
+  107    767  0x00007ff6d0011267  rl_location_002               MEM      4     0    1     0
+  108    768  0x00007ff6d00124b0  rl_location_003               MEM      6     0    2     0
+  109    773  0x00007ff6d00117dc  rl_location_004               MEM      6     0    3     0
+  110    781  0x00007ff6d00112d0  rl_location_005               MEM      5     0    1     0
+  111    786  0x00007ff6d00112ba  rl_location_006               MEM      5     0    1     0
+  112    791  0x00007ff6d00114c6  rl_location_007               MEM      6     0    1     0
+  113    795  0x00007ff6d0011de9  rl_location_008               MEM      3     0    1     0
+  114    818  0x00007ff6d0011267  rl_location_002               MEM      4     0    1     0
+  115    819  0x00007ff6d001117e  base_location                 COND    12     1    1     0
+  116    829  0x00007ff6d00128c6  rl_location_010               MEM     10     0    2     0
+  117    839  0x00007ff6d00128c6  rl_location_010               MEM     10     0    2     0
+  118    849  0x00007ff6d00128c6  rl_location_010               MEM     10     0    2     0
+  119    859  0x00007ff6d00128c6  rl_location_010               MEM     10     0    2     0
+  120    869  0x00007ff6d00128c6  rl_location_010               MEM     10     0    2     0
+  121    879  0x00007ff6d00128c6  rl_location_010               MEM     10     0    2     0
+  122    889  0x00007ff6d00128c6  rl_location_010               MEM     10     0    2     0
+  123    899  0x00007ff6d00128c6  rl_location_010               MEM     10     0    2     0
+  124    909  0x00007ff6d00128c6  rl_location_010               MEM     10     0    2     0
+  125    919  0x00007ff6d00128c6  rl_location_010               MEM     10     0    2     0
+  126    929  0x00007ff6d00128c6  rl_location_010               MEM     10     0    2     0
+  127    939  0x00007ff6d00128c6  rl_location_010               MEM     10     0    2     0
+  128    949  0x00007ff6d00128c6  rl_location_010               MEM     10     0    2     0
+  129    959  0x00007ff6d00128c6  rl_location_010               MEM     10     0    2     0
+  130    969  0x00007ff6d00128c6  rl_location_010               MEM     10     0    2     0
+  131    979  0x00007ff6d00128c6  rl_location_010               MEM     10     0    2     0
+  132    989  0x00007ff6d0012875  rl_location_011               COND     5     1    1     0
+  133    995  0x00007ff6d0012c19  rl_location_012               COND     5     1    1     0
+  134   1001  0x00007ff6d00120dc  rl_location_013               COND     5     1    0     0
+  135   1002  0x00007ff6d0011f81  rl_location_014(firt seen here)               MEM      9     0    2     0
+  136   1012  0x00007ff6d00120dc  rl_location_013               COND     5     1    0     0
+  137   1013  0x00007ff6d0011f81  rl_location_014               MEM      9     0    2     0
+  138   1023  0x00007ff6d00120dc  rl_location_013               COND     5     1    0     0
+  139   1024  0x00007ff6d0011f81  rl_location_014               MEM      9     0    2     0
+  140   1034  0x00007ff6d00120dc  rl_location_013               COND     5     1    0     0
+  141   1035  0x00007ff6d0011f81  rl_location_014               MEM      9     0    2     0
+  142   1045  0x00007ff6d00120dc  rl_location_013               COND     5     1    0     0
+  143   1046  0x00007ff6d0011f81  rl_location_014               MEM      9     0    2     0
+  144   1056  0x00007ff6d00120dc  rl_location_013               COND     5     1    0     0
+  145   1057  0x00007ff6d0011f81  rl_location_014               MEM      9     0    2     0
+  146   1067  0x00007ff6d00120dc  rl_location_013               COND     5     1    0     0
+  147   1068  0x00007ff6d0011f81  rl_location_014               MEM      9     0    2     0
+  148   1078  0x00007ff6d00120dc  rl_location_013               COND     5     1    0     0
+  149   1079  0x00007ff6d0011f81  rl_location_014               MEM      9     0    2     0
+  150   1089  0x00007ff6d00120dc  rl_location_013               COND     5     1    0     0
+  151   1090  0x00007ff6d0011f81  rl_location_014               MEM      9     0    2     0
+  152   1100  0x00007ff6d00120dc  rl_location_013               COND     5     1    0     0
+  153   1101  0x00007ff6d0011f81  rl_location_014               MEM      9     0    2     0
+  154   1111  0x00007ff6d00120dc  rl_location_013               COND     5     1    0     0
+  155   1112  0x00007ff6d0011f81  rl_location_014               MEM      9     0    2     0
+  156   1122  0x00007ff6d00120dc  rl_location_013               COND     5     1    0     0
+  157   1123  0x00007ff6d0011f81  rl_location_014               MEM      9     0    2     0
+  158   1133  0x00007ff6d00120dc  rl_location_013               COND     5     1    0     0
+  159   1134  0x00007ff6d0011f81  rl_location_014               MEM      9     0    2     0
+  160   1144  0x00007ff6d00120dc  rl_location_013               COND     5     1    0     0
+  161   1145  0x00007ff6d0011f81  rl_location_014               MEM      9     0    2     0
+  162   1155  0x00007ff6d00120dc  rl_location_013               COND     5     1    0     0
+  163   1156  0x00007ff6d00117b6  rl_location_015               CALL     7     0    0     2
+  164   1157  0x00007ff6d00117b6  rl_location_015               CALL     7     0    0     2
+
+rl_location_014 here equals fail_way
+
+
+(164 non-TRIV steps out of 1173 total hits)
+
+------------------------------------------------------------------------
+Section 6 - Real-handler rename map (first-visit order -> rl_location_NNN)
+------------------------------------------------------------------------
+address             old name                     -> new name
+0x00007ff6d0011b8f  loc_7FF6D0011B8F             -> rl_location_001
+0x00007ff6d0011267  loc_7FF6D0011267             -> rl_location_002
+0x00007ff6d00124b0  loc_7FF6D00124B0             -> rl_location_003
+0x00007ff6d00117dc  loc_7FF6D00117DC             -> rl_location_004
+0x00007ff6d00112d0  loc_7FF6D00112D0             -> rl_location_005
+0x00007ff6d00112ba  loc_7FF6D00112BA             -> rl_location_006
+0x00007ff6d00114c6  loc_7FF6D00114C6             -> rl_location_007
+0x00007ff6d0011de9  loc_7FF6D0011DE9             -> rl_location_008
+0x00007ff6d00128c6  loc_7FF6D00128C6             -> rl_location_010
+0x00007ff6d0012875  loc_7FF6D0012875             -> rl_location_011
+0x00007ff6d0012c19  loc_7FF6D0012C19             -> rl_location_012
+0x00007ff6d00120dc  loc_7FF6D00120DC             -> rl_location_013
+0x00007ff6d0011f81  loc_7FF6D0011F81             -> rl_location_014
+0x00007ff6d00117b6  loc_7FF6D00117B6             -> rl_location_015
