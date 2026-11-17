@@ -1,0 +1,25 @@
+---
+IAT at: 1a028, size: b8, thunks: 16, is_terminated: 1, in_main: 0
+---
+1a028,7ff9e5cffab0,kernel32.GetModuleFileNameA #678
+1a030,7ff9e5cf3160,kernel32.VirtualAlloc #1563
+1a038,7ff9e5cf5da0,kernel32.VirtualFree #1566
+1a040,7ff9e5d02c80,kernel32.LoadLibraryA #1019
+1a048,7ff9e5cf3140,kernel32.GetProcAddress #739
+1a050,7ff9e5cfc790,kernel32.GetModuleHandleA #680
+1a058,7ff9e5cf8460,kernel32.VirtualProtect #1569
+1a060,7ff9e5d017a0,kernel32.FatalExit #405
+1a068,7ff9e5d03500,kernel32.SetUnhandledExceptionFilter #1471
+1a070,7ff9e5cf25d0,kernel32.CreateThread #277
+1a078,7ff9e5ce29e0,kernel32.GetCurrentThread #587
+1a080,7ff9e5cfc8a0,kernel32.GetThreadContext #817
+1a088,7ff9e5cf0e50,kernel32.Sleep #1487
+1a090,7ff9e5d17040,kernel32.CreateFileA #228
+1a098,7ff9e5d17410,kernel32.ReadFile #1200
+1a0a0,7ff9e5d17520,kernel32.WriteFile #1639
+1a0a8,7ff9e5d172a0,kernel32.GetFileSizeEx #638
+1a0b0,7ff9e5d174c0,kernel32.SetFilePointer #1391
+1a0b8,7ff9e5d16da0,kernel32.CloseHandle #163
+1a0c0,7ff9e5cffa30,kernel32.GetStdHandle #777
+1a0c8,7ff9e5cf26b0,kernel32.QueryPerformanceFrequency #1161
+1a0d0,7ff9e5ce3480,kernel32.QueryPerformanceCounter #1160

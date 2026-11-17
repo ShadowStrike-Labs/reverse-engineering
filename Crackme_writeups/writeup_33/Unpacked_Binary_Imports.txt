@@ -1,0 +1,7 @@
+---
+IAT at: 3060, size: 28, thunks: 4, is_terminated: 1, in_main: 1
+---
+3060,7ff9e5d017a0,kernel32.FatalExit #405
+3068,7ff9e5cffa30,kernel32.GetStdHandle #777
+3070,7ff9e5d17410,kernel32.ReadFile #1200
+3078,7ff9e5d17520,kernel32.WriteFile #1639
